@@ -1,9 +1,8 @@
-[gd_scene load_steps=11 format=4 uid="uid://dixslfn65xiee"]
+[gd_scene load_steps=8 format=4 uid="uid://dixslfn65xiee"]
 
 [ext_resource type="Script" uid="uid://cq0iv8frkgqcu" path="res://main.gd" id="1_h2yge"]
 [ext_resource type="Texture2D" uid="uid://bdi4dggc6xo5n" path="res://smb_tiles.png" id="1_ig7tw"]
 [ext_resource type="PackedScene" uid="uid://chbw8qoar5fuj" path="res://player.tscn" id="2_0xm2m"]
-[ext_resource type="Script" uid="uid://c1aeaoa1gxp25" path="res://spring_camera.gd" id="3_lquwl"]
 [ext_resource type="PackedScene" uid="uid://gbow5ndyk2h5" path="res://portal.tscn" id="5_7mycd"]
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_o0rcv"]
@@ -166,12 +165,6 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_h2yge")
 pattern_0 = SubResource("TileMapPattern_o0rcv")
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_0xm2m"]
-size = Vector2(1440, 15)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_h2yge"]
-size = Vector2(51, 101)
-
 [node name="main" type="Node2D"]
 script = ExtResource("1_h2yge")
 
@@ -191,25 +184,9 @@ position = Vector2(16, 538)
 zoom = Vector2(2, 2)
 limit_left = 0
 limit_right = 1280
-script = ExtResource("3_lquwl")
 
 [node name="mainplayer" parent="." instance=ExtResource("2_0xm2m")]
 position = Vector2(16, 665)
 
-[node name="deathBox" type="Area2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="deathBox"]
-position = Vector2(640, 733)
-shape = SubResource("RectangleShape2D_0xm2m")
-
-[node name="winBox" type="Area2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="winBox"]
-position = Vector2(1111.5, 571)
-shape = SubResource("RectangleShape2D_h2yge")
-
 [node name="Area2D" parent="." instance=ExtResource("5_7mycd")]
 position = Vector2(16, 665)
-
-[connection signal="body_entered" from="deathBox" to="mainplayer" method="_on_death_box_body_entered"]
-[connection signal="body_entered" from="winBox" to="mainplayer" method="_on_win_box_body_entered"]
