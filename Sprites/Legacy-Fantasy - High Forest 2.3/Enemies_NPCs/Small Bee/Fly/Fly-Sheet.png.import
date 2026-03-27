@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4lgx3i0283xg"
-path="res://.godot/imported/Fly-Sheet.png-224df1b71a0a73e8de942a40d30ecc61.ctex"
+path="res://.godot/imported/Fly-Sheet.png-e7860d8a0a033f582a1faee878b0b8a6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Fly/Fly-Sheet.png"
-dest_files=["res://.godot/imported/Fly-Sheet.png-224df1b71a0a73e8de942a40d30ecc61.ctex"]
+source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Small Bee/Fly/Fly-Sheet.png"
+dest_files=["res://.godot/imported/Fly-Sheet.png-e7860d8a0a033f582a1faee878b0b8a6.ctex"]
 
 [params]
 

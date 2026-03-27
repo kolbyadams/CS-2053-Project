@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmnbyv8k5udiw"
-path="res://.godot/imported/Attack-Sheet.png-8d3c6d0cb3dffb20c3e87958ebb3fa3b.ctex"
+path="res://.godot/imported/Attack-Sheet.png-0a0c5dad461066d7ee4058d43220bc7a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Attack/Attack-Sheet.png"
-dest_files=["res://.godot/imported/Attack-Sheet.png-8d3c6d0cb3dffb20c3e87958ebb3fa3b.ctex"]
+source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Small Bee/Attack/Attack-Sheet.png"
+dest_files=["res://.godot/imported/Attack-Sheet.png-0a0c5dad461066d7ee4058d43220bc7a.ctex"]
 
 [params]
 

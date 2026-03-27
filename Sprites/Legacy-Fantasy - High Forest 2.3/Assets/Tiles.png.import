@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctccclcuix6ye"
-path="res://.godot/imported/Tiles.png-6ab882f9cb0bf3a11dddbf8ff79de78e.ctex"
+path="res://.godot/imported/Tiles.png-d2ec742ebb8d8c60157031f065f86fd1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png"
-dest_files=["res://.godot/imported/Tiles.png-6ab882f9cb0bf3a11dddbf8ff79de78e.ctex"]
+source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png"
+dest_files=["res://.godot/imported/Tiles.png-d2ec742ebb8d8c60157031f065f86fd1.ctex"]
 
 [params]
 
