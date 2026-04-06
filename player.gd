@@ -55,11 +55,6 @@ func _physics_process(delta):
 	$AnimatedSprite2D.play()
 	move_and_slide()
 
-<<<<<<< HEAD
-
 func _on_diamond_1_body_entered(body: Node2D) -> void:
 	if body.name == "mainplayer":
 		queue_free()
-=======
- 
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab

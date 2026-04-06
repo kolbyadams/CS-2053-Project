@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Fly/Fly-Sheet.png.import
-uid="uid://bwuk3twh330jt"
-path="res://.godot/imported/Fly-Sheet.png-224df1b71a0a73e8de942a40d30ecc61.ctex"
-=======
-uid="uid://c4lgx3i0283xg"
+uid="uid://dniewwk6c5jxt"
 path="res://.godot/imported/Fly-Sheet.png-e7860d8a0a033f582a1faee878b0b8a6.ctex"
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Small Bee/Fly/Fly-Sheet.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Fly/Fly-Sheet.png.import
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Fly/Fly-Sheet.png"
-dest_files=["res://.godot/imported/Fly-Sheet.png-224df1b71a0a73e8de942a40d30ecc61.ctex"]
-=======
 source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Small Bee/Fly/Fly-Sheet.png"
 dest_files=["res://.godot/imported/Fly-Sheet.png-e7860d8a0a033f582a1faee878b0b8a6.ctex"]
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Small Bee/Fly/Fly-Sheet.png.import
 
 [params]
 

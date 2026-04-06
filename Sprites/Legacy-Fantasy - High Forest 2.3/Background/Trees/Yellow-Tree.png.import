@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/Yellow-Tree.png.import
-uid="uid://cu5yt3xhhwqgr"
-path="res://.godot/imported/Yellow-Tree.png-3e3293c3aecd1270e36bad16e4a37895.ctex"
-=======
-uid="uid://3lkgxw2fdt18"
+uid="uid://d03tbumk2sle6"
 path="res://.godot/imported/Yellow-Tree.png-5b26650241a392c990a94e1af9711d29.ctex"
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Background/Trees/Yellow-Tree.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/Yellow-Tree.png.import
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/Yellow-Tree.png"
-dest_files=["res://.godot/imported/Yellow-Tree.png-3e3293c3aecd1270e36bad16e4a37895.ctex"]
-=======
 source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Background/Trees/Yellow-Tree.png"
 dest_files=["res://.godot/imported/Yellow-Tree.png-5b26650241a392c990a94e1af9711d29.ctex"]
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Background/Trees/Yellow-Tree.png.import
 
 [params]
 

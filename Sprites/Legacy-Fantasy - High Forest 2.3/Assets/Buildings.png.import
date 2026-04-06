@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Buildings.png.import
-uid="uid://dkpdqftyo1lm5"
-path="res://.godot/imported/Buildings.png-f1e53ffa683e8ed8dd3ca198cb01c64c.ctex"
-=======
-uid="uid://dnnb4276cisxa"
+uid="uid://d2dft3qxwg1wt"
 path="res://.godot/imported/Buildings.png-4fada5f1d40bc8aeb9be37c0a628f106.ctex"
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Assets/Buildings.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Buildings.png.import
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Buildings.png"
-dest_files=["res://.godot/imported/Buildings.png-f1e53ffa683e8ed8dd3ca198cb01c64c.ctex"]
-=======
 source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Assets/Buildings.png"
 dest_files=["res://.godot/imported/Buildings.png-4fada5f1d40bc8aeb9be37c0a628f106.ctex"]
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Assets/Buildings.png.import
 
 [params]
 

@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/Dark-Tree.png.import
-uid="uid://c67h2xiuh45lg"
-path="res://.godot/imported/Dark-Tree.png-59079d94701db8b216e11a84e55e8e22.ctex"
-=======
-uid="uid://cxn1rue5tw6oi"
+uid="uid://w34vn008drux"
 path="res://.godot/imported/Dark-Tree.png-46318145285d13a5d785095895418d90.ctex"
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Background/Trees/Dark-Tree.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/Dark-Tree.png.import
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/Dark-Tree.png"
-dest_files=["res://.godot/imported/Dark-Tree.png-59079d94701db8b216e11a84e55e8e22.ctex"]
-=======
 source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Background/Trees/Dark-Tree.png"
 dest_files=["res://.godot/imported/Dark-Tree.png-46318145285d13a5d785095895418d90.ctex"]
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Background/Trees/Dark-Tree.png.import
 
 [params]
 

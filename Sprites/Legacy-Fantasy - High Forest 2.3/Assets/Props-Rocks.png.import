@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Props-Rocks.png.import
-uid="uid://bipbhgyin63xp"
-path="res://.godot/imported/Props-Rocks.png-d569a5e9cfcd6103370340cabe98ed7e.ctex"
-=======
-uid="uid://8bpw8q3h3q4m"
+uid="uid://dowij7r1kihk7"
 path="res://.godot/imported/Props-Rocks.png-561d7e875b2b0f188182b5c1f1100305.ctex"
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Assets/Props-Rocks.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Props-Rocks.png.import
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Props-Rocks.png"
-dest_files=["res://.godot/imported/Props-Rocks.png-d569a5e9cfcd6103370340cabe98ed7e.ctex"]
-=======
 source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Assets/Props-Rocks.png"
 dest_files=["res://.godot/imported/Props-Rocks.png-561d7e875b2b0f188182b5c1f1100305.ctex"]
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Assets/Props-Rocks.png.import
 
 [params]
 

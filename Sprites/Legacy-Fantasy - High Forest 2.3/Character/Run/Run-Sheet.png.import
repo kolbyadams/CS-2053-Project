@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png.import
-uid="uid://c1nxht85c7p5"
-path="res://.godot/imported/Run-Sheet.png-3ed8654c0f7a188b2c430e1ac0f46a06.ctex"
-=======
-uid="uid://bej8405fpg6vx"
+uid="uid://di3aw6wdiqgn1"
 path="res://.godot/imported/Run-Sheet.png-4add8c17f733577feef21a940ea00527.ctex"
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png.import
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png"
-dest_files=["res://.godot/imported/Run-Sheet.png-3ed8654c0f7a188b2c430e1ac0f46a06.ctex"]
-=======
 source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png"
 dest_files=["res://.godot/imported/Run-Sheet.png-4add8c17f733577feef21a940ea00527.ctex"]
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png.import
 
 [params]
 

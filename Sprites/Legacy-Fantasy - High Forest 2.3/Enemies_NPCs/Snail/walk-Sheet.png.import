@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Snail/walk-Sheet.png.import
-uid="uid://b2x6xg2ftdjoa"
-path="res://.godot/imported/walk-Sheet.png-c7c22c50b4ed30c86bf13334dd157e62.ctex"
-=======
-uid="uid://cjfrxnswcynj"
+uid="uid://clgj22s1pkho3"
 path="res://.godot/imported/walk-Sheet.png-32e4970e58248a1507ec622f55a97050.ctex"
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Snail/walk-Sheet.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Snail/walk-Sheet.png.import
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Snail/walk-Sheet.png"
-dest_files=["res://.godot/imported/walk-Sheet.png-c7c22c50b4ed30c86bf13334dd157e62.ctex"]
-=======
 source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Snail/walk-Sheet.png"
 dest_files=["res://.godot/imported/walk-Sheet.png-32e4970e58248a1507ec622f55a97050.ctex"]
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Snail/walk-Sheet.png.import
 
 [params]
 

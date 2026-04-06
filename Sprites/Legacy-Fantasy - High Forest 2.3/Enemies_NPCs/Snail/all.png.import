@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Snail/all.png.import
-uid="uid://o4w30i10hyt4"
-path="res://.godot/imported/all.png-be7954b43a8d5f29cbde8fc1f4cbbd75.ctex"
-=======
-uid="uid://bwrq1dltegs7d"
+uid="uid://byou3iwxdlme0"
 path="res://.godot/imported/all.png-f3f90fae277f06ea0174b18b3f48babd.ctex"
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Snail/all.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Snail/all.png.import
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Snail/all.png"
-dest_files=["res://.godot/imported/all.png-be7954b43a8d5f29cbde8fc1f4cbbd75.ctex"]
-=======
 source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Snail/all.png"
 dest_files=["res://.godot/imported/all.png-f3f90fae277f06ea0174b18b3f48babd.ctex"]
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Snail/all.png.import
 
 [params]
 

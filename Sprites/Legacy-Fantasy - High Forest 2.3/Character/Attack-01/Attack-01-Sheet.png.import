@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/Attack-01-Sheet.png.import
-uid="uid://c45vpn05m2ccy"
-path="res://.godot/imported/Attack-01-Sheet.png-17b7b2f5ea9488b63cabc6e92b09eddd.ctex"
-=======
-uid="uid://bfhh55bdxolnw"
+uid="uid://bq6i8ps133csc"
 path="res://.godot/imported/Attack-01-Sheet.png-873600224d1e9491e5c8041a25a6523f.ctex"
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/Attack-01-Sheet.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/Attack-01-Sheet.png.import
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/Attack-01-Sheet.png"
-dest_files=["res://.godot/imported/Attack-01-Sheet.png-17b7b2f5ea9488b63cabc6e92b09eddd.ctex"]
-=======
 source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/Attack-01-Sheet.png"
 dest_files=["res://.godot/imported/Attack-01-Sheet.png-873600224d1e9491e5c8041a25a6523f.ctex"]
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/Attack-01-Sheet.png.import
 
 [params]
 

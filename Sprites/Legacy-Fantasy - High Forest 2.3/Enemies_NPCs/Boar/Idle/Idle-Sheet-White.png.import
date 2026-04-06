@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/Idle-Sheet-White.png.import
-uid="uid://cwx0mg0mr2367"
-path="res://.godot/imported/Idle-Sheet-White.png-94405f2b54bf5b4f5b4b7a187b7ac7fa.ctex"
-=======
-uid="uid://bjtid5djsagdw"
+uid="uid://by1leq5pm3knw"
 path="res://.godot/imported/Idle-Sheet-White.png-d2f3ed2e5c507712a6b91f3e9ce97bf4.ctex"
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Boar/Idle/Idle-Sheet-White.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/Idle-Sheet-White.png.import
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/Idle-Sheet-White.png"
-dest_files=["res://.godot/imported/Idle-Sheet-White.png-94405f2b54bf5b4f5b4b7a187b7ac7fa.ctex"]
-=======
 source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Boar/Idle/Idle-Sheet-White.png"
 dest_files=["res://.godot/imported/Idle-Sheet-White.png-d2f3ed2e5c507712a6b91f3e9ce97bf4.ctex"]
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Boar/Idle/Idle-Sheet-White.png.import
 
 [params]
 

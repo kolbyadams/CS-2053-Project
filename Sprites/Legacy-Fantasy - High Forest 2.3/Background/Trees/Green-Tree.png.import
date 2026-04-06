@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/Green-Tree.png.import
-uid="uid://c3svqp0vcl783"
-path="res://.godot/imported/Green-Tree.png-31c802964a51eaec1cfe368bbc8b2815.ctex"
-=======
-uid="uid://djyrqle0yohi2"
+uid="uid://bbyxvhyhk0r7"
 path="res://.godot/imported/Green-Tree.png-35ae02fea1e2990681f9361e32b2d561.ctex"
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Background/Trees/Green-Tree.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/Green-Tree.png.import
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/Green-Tree.png"
-dest_files=["res://.godot/imported/Green-Tree.png-31c802964a51eaec1cfe368bbc8b2815.ctex"]
-=======
 source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Background/Trees/Green-Tree.png"
 dest_files=["res://.godot/imported/Green-Tree.png-35ae02fea1e2990681f9361e32b2d561.ctex"]
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Background/Trees/Green-Tree.png.import
 
 [params]
 

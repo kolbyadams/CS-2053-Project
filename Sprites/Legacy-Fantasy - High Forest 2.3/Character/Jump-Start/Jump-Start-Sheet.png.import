@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/Jump-Start-Sheet.png.import
-uid="uid://c4r7keyv5ihap"
-path="res://.godot/imported/Jump-Start-Sheet.png-ea84334ee82a46c7b0bb59e278d8f35a.ctex"
-=======
-uid="uid://d0p0bkab2g821"
+uid="uid://31ya40tlp5aq"
 path="res://.godot/imported/Jump-Start-Sheet.png-5a795dce7a63e8e9c8a76f62b60cd9e4.ctex"
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/Jump-Start-Sheet.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/Jump-Start-Sheet.png.import
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/Jump-Start-Sheet.png"
-dest_files=["res://.godot/imported/Jump-Start-Sheet.png-ea84334ee82a46c7b0bb59e278d8f35a.ctex"]
-=======
 source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/Jump-Start-Sheet.png"
 dest_files=["res://.godot/imported/Jump-Start-Sheet.png-5a795dce7a63e8e9c8a76f62b60cd9e4.ctex"]
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/Jump-Start-Sheet.png.import
 
 [params]
 

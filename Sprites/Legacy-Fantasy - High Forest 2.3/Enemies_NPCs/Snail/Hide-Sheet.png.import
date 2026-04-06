@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Snail/Hide-Sheet.png.import
-uid="uid://dgqiai3ohls21"
-path="res://.godot/imported/Hide-Sheet.png-dc496d8f15adab9519be19af044d36d9.ctex"
-=======
-uid="uid://baqk18uihfiyc"
+uid="uid://div1nfuurulox"
 path="res://.godot/imported/Hide-Sheet.png-8fff742ac9a5acda0fe745aba99cc43d.ctex"
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Snail/Hide-Sheet.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Snail/Hide-Sheet.png.import
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Snail/Hide-Sheet.png"
-dest_files=["res://.godot/imported/Hide-Sheet.png-dc496d8f15adab9519be19af044d36d9.ctex"]
-=======
 source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Snail/Hide-Sheet.png"
 dest_files=["res://.godot/imported/Hide-Sheet.png-8fff742ac9a5acda0fe745aba99cc43d.ctex"]
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Snail/Hide-Sheet.png.import
 
 [params]
 

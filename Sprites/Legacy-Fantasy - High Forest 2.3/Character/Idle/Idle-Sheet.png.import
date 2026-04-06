@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png.import
-uid="uid://bo6vce3q0oqr0"
-path="res://.godot/imported/Idle-Sheet.png-e7e6db524daed082fcc65c6377929892.ctex"
-=======
-uid="uid://dlc7qifp1ghj6"
+uid="uid://c28m81r7cibf0"
 path="res://.godot/imported/Idle-Sheet.png-5f54f731f361ff2fe476eea510418a1c.ctex"
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png.import
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png"
-dest_files=["res://.godot/imported/Idle-Sheet.png-e7e6db524daed082fcc65c6377929892.ctex"]
-=======
 source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png"
 dest_files=["res://.godot/imported/Idle-Sheet.png-5f54f731f361ff2fe476eea510418a1c.ctex"]
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png.import
 
 [params]
 

@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://b5e3bcex3iwq5" path="res://node_2d.gd" id="1_bfh20"]
 [ext_resource type="PackedScene" uid="uid://gbow5ndyk2h5" path="res://portal.tscn" id="2_63fig"]
-[ext_resource type="Texture2D" uid="uid://bavqwdxcfgyqv" path="res://Sprites/Legacy-Fantasy - High Forest 2.3/Background/Background.png" id="3_husgh"]
+[ext_resource type="Texture2D" uid="uid://cuy64pvqtga1" path="res://Sprites/Legacy-Fantasy - High Forest 2.3/Background/Background.png" id="3_husgh"]
 [ext_resource type="Texture2D" uid="uid://r4v1qfjxabu7" path="res://Sprites/Legacy-Fantasy - High Forest 2.3/Assets/Tilesplains.png" id="4_l7yd6"]
 [ext_resource type="PackedScene" uid="uid://chbw8qoar5fuj" path="res://player.tscn" id="5_m2kja"]
 [ext_resource type="PackedScene" uid="uid://cyapvn0b75wdb" path="res://transition2.tscn" id="6_63fig"]

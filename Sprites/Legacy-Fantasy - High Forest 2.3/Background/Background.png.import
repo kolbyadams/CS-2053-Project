@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Background/Background.png.import
-uid="uid://w7qwyy6pio1i"
-path="res://.godot/imported/Background.png-f9d8a8271ed6282256d168101b84084d.ctex"
-=======
-uid="uid://bavqwdxcfgyqv"
+uid="uid://cuy64pvqtga1"
 path="res://.godot/imported/Background.png-b478cbf0ea13c7784aaf272a10739562.ctex"
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Background/Background.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Background/Background.png.import
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Background/Background.png"
-dest_files=["res://.godot/imported/Background.png-f9d8a8271ed6282256d168101b84084d.ctex"]
-=======
 source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Background/Background.png"
 dest_files=["res://.godot/imported/Background.png-b478cbf0ea13c7784aaf272a10739562.ctex"]
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Background/Background.png.import
 
 [params]
 

@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Run/Run-Sheet.png.import
-uid="uid://bpg22pms8kmes"
-path="res://.godot/imported/Run-Sheet.png-15a352988d22aba9b7e75688dbc00048.ctex"
-=======
-uid="uid://ce6xpdn4trenx"
+uid="uid://dwdj7wx7rx53o"
 path="res://.godot/imported/Run-Sheet.png-2b51c703e79c0483339cc9675b1823fc.ctex"
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Boar/Run/Run-Sheet.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Run/Run-Sheet.png.import
-source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Run/Run-Sheet.png"
-dest_files=["res://.godot/imported/Run-Sheet.png-15a352988d22aba9b7e75688dbc00048.ctex"]
-=======
 source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Boar/Run/Run-Sheet.png"
 dest_files=["res://.godot/imported/Run-Sheet.png-2b51c703e79c0483339cc9675b1823fc.ctex"]
->>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Boar/Run/Run-Sheet.png.import
 
 [params]
 
