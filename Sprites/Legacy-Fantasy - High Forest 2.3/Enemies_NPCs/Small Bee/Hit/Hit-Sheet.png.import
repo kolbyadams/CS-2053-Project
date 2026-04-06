@@ -1,0 +1,44 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Hit/Hit-Sheet.png.import
+uid="uid://cq5ds25wvgims"
+path="res://.godot/imported/Hit-Sheet.png-846d94ea1c0938a60aafa60994facebb.ctex"
+=======
+uid="uid://c7jv8mtxv8he7"
+path="res://.godot/imported/Hit-Sheet.png-7753579247ffb7f0b1afe54faae8b2a6.ctex"
+>>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Small Bee/Hit/Hit-Sheet.png.import
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Hit/Hit-Sheet.png.import
+source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Hit/Hit-Sheet.png"
+dest_files=["res://.godot/imported/Hit-Sheet.png-846d94ea1c0938a60aafa60994facebb.ctex"]
+=======
+source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Small Bee/Hit/Hit-Sheet.png"
+dest_files=["res://.godot/imported/Hit-Sheet.png-7753579247ffb7f0b1afe54faae8b2a6.ctex"]
+>>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Small Bee/Hit/Hit-Sheet.png.import
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

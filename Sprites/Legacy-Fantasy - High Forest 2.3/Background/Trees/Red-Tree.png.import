@@ -1,0 +1,44 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/Red-Tree.png.import
+uid="uid://djc3mo37n0x4x"
+path="res://.godot/imported/Red-Tree.png-a697b132e666c2f9d40049e7769905b2.ctex"
+=======
+uid="uid://8j3myp0rbs4j"
+path="res://.godot/imported/Red-Tree.png-ec8b12e2f0921403457d76ff034160d7.ctex"
+>>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Background/Trees/Red-Tree.png.import
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/Red-Tree.png.import
+source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/Red-Tree.png"
+dest_files=["res://.godot/imported/Red-Tree.png-a697b132e666c2f9d40049e7769905b2.ctex"]
+=======
+source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Background/Trees/Red-Tree.png"
+dest_files=["res://.godot/imported/Red-Tree.png-ec8b12e2f0921403457d76ff034160d7.ctex"]
+>>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Background/Trees/Red-Tree.png.import
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

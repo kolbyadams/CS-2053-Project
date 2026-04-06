@@ -1,0 +1,44 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png.import
+uid="uid://c1nxht85c7p5"
+path="res://.godot/imported/Run-Sheet.png-3ed8654c0f7a188b2c430e1ac0f46a06.ctex"
+=======
+uid="uid://bej8405fpg6vx"
+path="res://.godot/imported/Run-Sheet.png-4add8c17f733577feef21a940ea00527.ctex"
+>>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png.import
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png.import
+source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png"
+dest_files=["res://.godot/imported/Run-Sheet.png-3ed8654c0f7a188b2c430e1ac0f46a06.ctex"]
+=======
+source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png"
+dest_files=["res://.godot/imported/Run-Sheet.png-4add8c17f733577feef21a940ea00527.ctex"]
+>>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png.import
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

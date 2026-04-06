@@ -1,0 +1,44 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Walk/Walk-Base-Sheet-White.png.import
+uid="uid://nqkcjjx7k0m1"
+path="res://.godot/imported/Walk-Base-Sheet-White.png-727a170434e2b6a62207c9734363a6cb.ctex"
+=======
+uid="uid://blglrnycf2on0"
+path="res://.godot/imported/Walk-Base-Sheet-White.png-85cb693cc9384c56a9e5bcd1f6462f2a.ctex"
+>>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Boar/Walk/Walk-Base-Sheet-White.png.import
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+<<<<<<< HEAD:Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Walk/Walk-Base-Sheet-White.png.import
+source_file="res://Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Walk/Walk-Base-Sheet-White.png"
+dest_files=["res://.godot/imported/Walk-Base-Sheet-White.png-727a170434e2b6a62207c9734363a6cb.ctex"]
+=======
+source_file="res://Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Boar/Walk/Walk-Base-Sheet-White.png"
+dest_files=["res://.godot/imported/Walk-Base-Sheet-White.png-85cb693cc9384c56a9e5bcd1f6462f2a.ctex"]
+>>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab:Sprites/Legacy-Fantasy - High Forest 2.3/Enemies_NPCs/Boar/Walk/Walk-Base-Sheet-White.png.import
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

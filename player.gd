@@ -1,4 +1,5 @@
 extends CharacterBody2D
+var life = 3
 var coyote = false #whether you are within coyote time or not after leaving a ledge
 var coyoteTimer = 0 #in frames
 var speed = 0
@@ -8,7 +9,7 @@ var speed = 0
 @export var acceleration = 20
 @export var jumpVelocity = -300.0
 
-
+#TODO:add taking damage, depending on how we end up doing that
 
 
 func _physics_process(delta):
@@ -54,7 +55,11 @@ func _physics_process(delta):
 	$AnimatedSprite2D.play()
 	move_and_slide()
 
+<<<<<<< HEAD
 
 func _on_diamond_1_body_entered(body: Node2D) -> void:
 	if body.name == "mainplayer":
 		queue_free()
+=======
+ 
+>>>>>>> bde0dad6d0219049ef57fa94c702bb9c429cfaab
