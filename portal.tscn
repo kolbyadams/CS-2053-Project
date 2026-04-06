@@ -84,3 +84,4 @@ autoplay = "default"
 shape = SubResource("CapsuleShape2D_gci8f")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_shape_entered" from="." to="." method="_on_body_shape_entered"]
