@@ -1,5 +1,7 @@
 extends Area2D
-@export var nextLevel : String #put filepath of next level here
+
+@export var nextLevel : String
 
 func _on_body_entered(body):
-	get_tree().change_scene_to_file(nextLevel) 
+	if body.name == "mainplayer":
+		get_tree().change_scene_to_file(nextLevel)

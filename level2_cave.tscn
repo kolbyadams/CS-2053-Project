@@ -1,0 +1,209 @@
+[gd_scene load_steps=17 format=3 uid="uid://c1wshfdecgoc0"]
+
+[ext_resource type="Texture2D" uid="uid://def434uy5xbco" path="res://DeepCave-CubeAssets/Tileset/DeepCaveTile.png" id="1_kdtfp"]
+[ext_resource type="PackedScene" uid="uid://chbw8qoar5fuj" path="res://player.tscn" id="1_nbr83"]
+[ext_resource type="PackedScene" uid="uid://gbow5ndyk2h5" path="res://portal.tscn" id="2_6qirt"]
+[ext_resource type="Script" uid="uid://olpncqjgu2m" path="res://diamond_1.gd" id="2_dou0i"]
+[ext_resource type="Texture2D" uid="uid://b0yungc0tad2a" path="res://DeepCave-CubeAssets/SingleTile/Crystal-Base.png" id="2_pnhhm"]
+[ext_resource type="Texture2D" uid="uid://cyufrrh7duevg" path="res://DeepCave-CubeAssets/Mocap1.png" id="4_pnhhm"]
+[ext_resource type="Script" uid="uid://b1r87w28apwgc" path="res://diamond_2.gd" id="4_renxk"]
+[ext_resource type="Script" uid="uid://cim0i70mqte41" path="res://diamond_3.gd" id="5_dbgm1"]
+[ext_resource type="Script" uid="uid://ctv05w3bbcnb7" path="res://lava_1.gd" id="6_n01xr"]
+[ext_resource type="Texture2D" uid="uid://cby88vtehx52k" path="res://lava_ground_cracked_4.png" id="6_nodam"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dou0i"]
+texture = ExtResource("1_kdtfp")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-2.86768, -1.59315, 16, -1.59315, 16, 16, -2.86768, 16)
+1:0/0 = 0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -5.09809, 16, -5.09809, 16, 16, -16, 16)
+2:0/0 = 0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -7.00988, 16, -7.32851, 16, 16, -16, 16)
+3:0/0 = 0
+3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -7.00988, 16, -7.32851, 16, 16, -16, 16)
+4:0/0 = 0
+4:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -1.91179, 4.46083, -0.955893, 5.09809, 16, -16, 16)
+0:1/0 = 0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.09809, -16, 16, -16, 16, 16, -5.41672, 16)
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+4:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 5.41673, -16, 5.41673, 16, -16, 16)
+5:1/0 = 0
+6:1/0 = 0
+0:2/0 = 0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-4.46083, -16, 16, -16, 16, 16, -4.1422, 16)
+1:2/0 = 0
+2:2/0 = 0
+2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -5.73535, 16, -5.73535, 16, 16, -16, 16)
+3:2/0 = 0
+3:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
+4:2/0 = 0
+4:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 7.96577, -16, 7.64714, 16, -16, 16)
+5:2/0 = 0
+6:2/0 = 0
+0:3/0 = 0
+0:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.73535, -16, 16, -16, 16, 16, -5.41672, 16)
+1:3/0 = 0
+2:3/0 = 0
+2:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -5.73535, 16, -5.41672, 16, 16, -16, 16)
+3:3/0 = 0
+4:3/0 = 0
+4:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 6.05399, -16, 5.09809, 16, -16, 16)
+5:3/0 = 0
+6:3/0 = 0
+0:4/0 = 0
+0:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-2.54905, -16, -2.54905, 1.91179, 16, 1.27452, 16, -16)
+1:4/0 = 0
+1:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, -16, 5.73536, 16, 5.41672, 16, -16)
+2:4/0 = 0
+2:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 5.41672, -16, 5.73536)
+3:4/0 = 0
+3:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 5.73536, -16, 7.00988)
+4:4/0 = 0
+4:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 3.18631, -16, 1.59315, 2.86768, -16, 2.54905)
+5:4/0 = 0
+6:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+1:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 1.91179, -16, 1.59315)
+2:6/0 = 0
+3:6/0 = 0
+3:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -7.96577, 16, -7.96577, 16, 16, -16, 16)
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_pnhhm"]
+tile_size = Vector2i(32, 32)
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_dou0i")
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_dou0i"]
+radius = 13.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n01xr"]
+size = Vector2(251.5, 33)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x54sv"]
+size = Vector2(130.875, 175.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0mkep"]
+size = Vector2(125.75, 48.5)
+
+[node name="level2_cave" type="Node2D"]
+
+[node name="map" type="Node2D" parent="."]
+
+[node name="solidObjects" type="TileMap" parent="map"]
+tile_set = SubResource("TileSet_pnhhm")
+format = 2
+layer_0/tile_data = PackedInt32Array(524269, 65537, 5, 262129, 131072, 2, 262130, 131072, 3, 262131, 131072, 3, 262132, 131072, 3, 262133, 131072, 3, 262134, 65536, 6, 262135, 65536, 6, 262136, 65536, 6, 327665, 131072, 2, 327666, 131072, 2, 327667, 131072, 2, 327668, 131072, 2, 327669, 131072, 2, 327670, 131072, 2, 327671, 131072, 2, 327672, 131072, 2, 393208, 196608, 6, 393207, 196608, 6, 393206, 196608, 6, 393203, 196608, 6, 393204, 196608, 6, 393205, 196608, 6, 393202, 196608, 6, 393201, 196608, 6, 589809, 65536, 4, 589810, 131072, 4, 589811, 196608, 4, 589812, 65536, 4, 589813, 131072, 4, 589814, 131072, 4, 589815, 131072, 4, 589816, 131072, 4, 589817, 131072, 4, 589818, 196608, 4, 589819, 262144, 4, 458746, 196608, 6, 458745, 65536, 6, 458744, 65536, 6, 458743, 65536, 6, 458742, 65536, 6, 458741, 65536, 6, 458739, 65536, 6, 458738, 65536, 6, 458737, 65536, 6, 524273, 131072, 2, 524274, 131072, 2, 524276, 131072, 2, 524278, 131072, 2, 524277, 131072, 2, 524275, 131072, 2, 524279, 131072, 2, 524280, 131072, 2, 524281, 131072, 2, 524282, 131072, 2, 524291, 65536, 6, 524292, 65536, 6, 524293, 65536, 6, 524294, 65536, 6, 524295, 65536, 6, 524296, 65536, 6, 524298, 65536, 6, 524297, 65536, 6, 524299, 65536, 6, 524300, 65536, 6, 524301, 131072, 2, 393230, 131072, 2, 262158, 131072, 2, 196622, 131072, 2, 65550, 131072, 2, 14, 131072, 2, -65522, 131072, 2, -131058, 131072, 2, -65551, 196608, 6, -15, 196608, 6, 65521, 196608, 6, 131057, 196608, 6, 196593, 131072, 2, 196605, 65536, 0, 131086, 131072, 2, 327694, 131072, 2, 458766, 131072, 2, 524302, 131072, 2, 458740, 65536, 6, 131063, 65536, 0, 131064, 65536, 0, 196599, 65536, 6, 196600, 131072, 2, 196598, 65536, 6, 131062, 65536, 0, 458747, 262144, 1, 393210, 196608, 6, 393209, 196608, 6, 262137, 131072, 3, 262138, 131072, 3, 262139, 262144, 0, 327675, 262144, 2, 393211, 262144, 3, 327673, 65536, 6, 327674, 65536, 6, 131073, 65536, 0, 524283, 262144, 3, 458755, 0, 1, 327684, 65536, 0, 458756, 131072, 2, 327685, 65536, 0, 196614, 65536, 0, 196615, 65536, 0, 327686, 131072, 2, 262150, 65536, 6, 262151, 131072, 2, 196616, 131072, 2, 131080, 65536, 6, 65545, 65536, 0, 131081, 131072, 2, 65544, 65536, 0, 65543, 0, 0, 196613, 0, 0, 262149, 0, 2, 131079, 0, 2, 327683, 0, 0, 393219, 0, 2, 393220, 196608, 6, 393221, 196608, 6, 458765, 131072, 3, 458764, 131072, 3, 458760, 131072, 2, 458759, 131072, 2, 458758, 131072, 2, 458757, 131072, 2, 65524, 65536, 0, -65550, 65536, 0, -131083, 65536, 0, -262153, 65536, 0, 327679, 65536, 0, 393224, 131072, 2, 327688, 131072, 2, 327689, 131072, 2, 196617, 131072, 2, 262152, 131072, 2, 327687, 131072, 2, 393222, 131072, 2, 393223, 131072, 2, 262153, 131072, 2, 458761, 131072, 2, 393225, 131072, 2, -131087, 65536, 6, -196623, 65536, 6, -262159, 65536, 6, -327695, 65536, 6, -196594, 65536, 6, -262130, 65536, 6, -327666, 65536, 6, -65530, 65536, 0, -131068, 65536, 0, -262137, 65536, 0, -196598, 65536, 0, 196621, 65536, 0, 196620, 65536, 0, -14, 65536, 6, -65547, 65536, 6, -196617, 65536, 6, 131060, 65536, 6, -65532, 65536, 6, 6, 65536, 6, -196601, 65536, 6, -131062, 65536, 6, 262156, 65536, 6, 262157, 65536, 6)
+
+[node name="decorations" type="TileMap" parent="map"]
+format = 2
+
+[node name="Diamonds" type="Node2D" parent="map"]
+
+[node name="Diamond1" type="Area2D" parent="map/Diamonds"]
+script = ExtResource("2_dou0i")
+
+[node name="Sprite2D" type="Sprite2D" parent="map/Diamonds/Diamond1"]
+position = Vector2(-208, -79)
+texture = ExtResource("2_pnhhm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="map/Diamonds/Diamond1"]
+position = Vector2(-209, -79)
+shape = SubResource("CircleShape2D_dou0i")
+
+[node name="Diamond2" type="Area2D" parent="map/Diamonds"]
+script = ExtResource("4_renxk")
+
+[node name="Sprite2D" type="Sprite2D" parent="map/Diamonds/Diamond2"]
+position = Vector2(-16, 113)
+texture = ExtResource("2_pnhhm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="map/Diamonds/Diamond2"]
+position = Vector2(-17, 113)
+shape = SubResource("CircleShape2D_dou0i")
+
+[node name="Diamond3" type="Area2D" parent="map/Diamonds"]
+script = ExtResource("5_dbgm1")
+
+[node name="Sprite2D" type="Sprite2D" parent="map/Diamonds/Diamond3"]
+position = Vector2(334, -104)
+texture = ExtResource("2_pnhhm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="map/Diamonds/Diamond3"]
+position = Vector2(333, -105)
+shape = SubResource("CircleShape2D_dou0i")
+
+[node name="Hazards" type="Node2D" parent="map"]
+
+[node name="Lava1" type="Area2D" parent="map/Hazards"]
+script = ExtResource("6_n01xr")
+
+[node name="Sprite2D" type="Sprite2D" parent="map/Hazards/Lava1"]
+position = Vector2(-21, 273.5)
+scale = Vector2(0.84375, 0.103125)
+texture = ExtResource("6_nodam")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="map/Hazards/Lava1"]
+position = Vector2(-20.25, 271.5)
+shape = SubResource("RectangleShape2D_n01xr")
+
+[node name="Lava2" type="Area2D" parent="map/Hazards"]
+script = ExtResource("6_n01xr")
+
+[node name="Sprite2D" type="Sprite2D" parent="map/Hazards/Lava2"]
+position = Vector2(-384, 186.5)
+scale = Vector2(0.4375, 0.565625)
+texture = ExtResource("6_nodam")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="map/Hazards/Lava2"]
+position = Vector2(-385, 185.75)
+shape = SubResource("RectangleShape2D_x54sv")
+
+[node name="Lava3" type="Area2D" parent="map/Hazards"]
+script = ExtResource("6_n01xr")
+
+[node name="Sprite2D" type="Sprite2D" parent="map/Hazards/Lava3"]
+position = Vector2(383, 263)
+scale = Vector2(0.43125, 0.153125)
+texture = ExtResource("6_nodam")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="map/Hazards/Lava3"]
+position = Vector2(383, 263.25)
+shape = SubResource("RectangleShape2D_0mkep")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="mainplayer" parent="." instance=ExtResource("1_nbr83")]
+position = Vector2(-188, -2)
+
+[node name="portal" parent="." instance=ExtResource("2_6qirt")]
+visible = false
+position = Vector2(-1, 1)
+
+[node name="Background" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(2, 2)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("4_pnhhm")
+
+[connection signal="body_entered" from="map/Diamonds/Diamond1" to="map/Diamonds/Diamond1" method="_on_body_entered"]
+[connection signal="body_entered" from="map/Diamonds/Diamond2" to="map/Diamonds/Diamond1" method="_on_diamond_2_body_entered"]
+[connection signal="body_entered" from="map/Diamonds/Diamond2" to="map/Diamonds/Diamond2" method="_on_body_entered"]
+[connection signal="body_entered" from="map/Diamonds/Diamond3" to="map/Diamonds/Diamond3" method="_on_body_entered"]
+[connection signal="body_entered" from="map/Hazards/Lava1" to="map/Hazards/Lava1" method="_on_body_entered"]
+[connection signal="body_entered" from="map/Hazards/Lava2" to="map/Hazards/Lava2" method="_on_body_entered"]
+[connection signal="body_entered" from="map/Hazards/Lava3" to="map/Hazards/Lava3" method="_on_body_entered"]
