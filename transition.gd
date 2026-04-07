@@ -12,3 +12,15 @@ func transition_to(nextLevel : String):
 		get_tree().reload_current_scene()
 	else:
 		get_tree().change_scene_to_file(nextLevel)
+	
+func respawn(body: Node2D, xpos: int, ypos: int):
+	$AnimationPlayer.play_backwards("fade")
+	await $AnimationPlayer.animation_finished
+	body.position = Vector2(xpos, ypos)
+	$AnimationPlayer.play("fade")
+
+#doesn't wait because thats how i needed it to happen
+func respawnvec(body: Node2D, pos: Vector2):
+	$AnimationPlayer.play_backwards("fade")
+	body.position = pos
+	$AnimationPlayer.play("fade")

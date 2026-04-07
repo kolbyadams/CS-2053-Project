@@ -1,18 +1,52 @@
 extends Node2D
-var prevPosx = 16
-var prevPosy = 650.0
+@onready var prevPosx = $maincam.position.x
+@onready var prevPosy = $maincam.position.y
 @export var nextLevel : String #put filepath of next level here
 
-func _process(delta):
-	$Camera2D.position.x += $mainplayer.position.x - prevPosx
+func _process(_delta):
+	$maincam.position.x += $mainplayer.position.x - prevPosx
 	prevPosx = $mainplayer.position.x
-	#$Camera2D.position.y += $mainplayer.position.y - prevPosy/2
-	#prevPosy = $mainplayer.position.y
 
-func _on_portal_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
+#exit portal
+func _on_portal_body_shape_entered(_body_rid: RID, body: Node2D, _body_shape_index: int, _local_shape_index: int) -> void:
 	if get_tree().get_nodes_in_group("player").has(body):
-		$Node2D2/ColorRect.transition_to(nextLevel)
+		$transition/ColorRect.transition_to(nextLevel)
 
-
+#deathbox
 func _on_area_2d_body_shape_entered(body_rid, body, body_shape_index, local_shape_index):
-	$Node2D2/ColorRect.transition_to("r")
+	if get_tree().get_nodes_in_group("player").has(body):
+		$transition/ColorRect.transition_to("r")
+
+#lvl2 transition
+func _on_camtransition_1_body_shape_entered(_body_rid: RID, body: Node2D, _body_shape_index: int, _local_shape_index: int) -> void:
+	if get_tree().get_nodes_in_group("player").has(body):
+		$lvl2cam.make_current()
+		$lvl2.position = Vector2.ZERO
+		$lvl1.visible = false
+		$lvl2.visible = true
+		$lvl1/wall.position = Vector2.ZERO
+		$lvl2/wall2.position = Vector2.ZERO
+
+func _on_diamond_2_body_entered(body: Node2D) -> void:
+	if get_tree().get_nodes_in_group("player").has(body):
+		$maincam.make_current()
+
+
+func _on_cp_1_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
+	if get_tree().get_nodes_in_group("player").has(body):
+		$transition/ColorRect.respawn(body, 5213.0, 696.0)
+		$lvl1.visible = true
+		$lvl2.visible = false
+
+func _on_timeleap_1_body_shape_exited(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
+	if get_tree().get_nodes_in_group("player").has(body):
+		$lvl1.visible = true
+		$lvl2.visible = false
+		$lvl2.position = Vector2(10000, 10000)
+
+
+func _on_timeleap_2_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
+	if get_tree().get_nodes_in_group("player").has(body):
+		$lvl2.position = Vector2.ZERO
+		$lvl1.visible = false
+		$lvl2.visible = true
