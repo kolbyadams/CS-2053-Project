@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dwfhhbjsplfay"
-path="res://.godot/imported/NPC Merchant-idle.png-1947ab3dcf3d5f809b822914f40a2481.ctex"
+uid="uid://yre0ef5xt61l"
+path="res://.godot/imported/ice-nowater-mid.png-ae81f4cb7505ba253ecb43b1d5bc8791.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Characters/NPC merchant - with animated items/NPC Merchant-idle.png"
-dest_files=["res://.godot/imported/NPC Merchant-idle.png-1947ab3dcf3d5f809b822914f40a2481.ctex"]
+source_file="res://Sprites/snow bg test/ice-nowater-mid.png"
+dest_files=["res://.godot/imported/ice-nowater-mid.png-ae81f4cb7505ba253ecb43b1d5bc8791.ctex"]
 
 [params]
 

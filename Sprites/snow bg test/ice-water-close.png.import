@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cgnjkhyhin4eb"
-path="res://.godot/imported/NPC Merchant-interaction-entry.png-ed01f6cca1aa51da9ebba152114dc92f.ctex"
+uid="uid://b4s6e72elclca"
+path="res://.godot/imported/ice-water-close.png-b923b3f5f27cec5d2a7451f1a1b4acfd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Characters/NPC merchant - with animated items/NPC Merchant-interaction-entry.png"
-dest_files=["res://.godot/imported/NPC Merchant-interaction-entry.png-ed01f6cca1aa51da9ebba152114dc92f.ctex"]
+source_file="res://Sprites/snow bg test/ice-water-close.png"
+dest_files=["res://.godot/imported/ice-water-close.png-b923b3f5f27cec5d2a7451f1a1b4acfd.ctex"]
 
 [params]
 
