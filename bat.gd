@@ -6,7 +6,7 @@ enum State{
 	returning
 }
 
-@export var speed = 100
+@export var speed = 65
 @export var chase_range = 125
 
 @onready var anim = $AnimatedSprite2D # easier tan calling $AnimatedSpriet2D each time
