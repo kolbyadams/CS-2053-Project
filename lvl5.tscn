@@ -6063,7 +6063,6 @@ limit_left = 0
 limit_right = 1100000
 
 [node name="lvl1" type="Node2D" parent="."]
-visible = false
 
 [node name="Parallax2D" type="Parallax2D" parent="lvl1"]
 z_index = -1000
