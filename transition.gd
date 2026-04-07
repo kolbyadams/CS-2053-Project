@@ -8,4 +8,7 @@ func transition_to(nextLevel : String):
 	$AnimationPlayer.play_backwards("fade")
 	await $AnimationPlayer.animation_finished
 	# Changes the scene
-	get_tree().change_scene_to_file(nextLevel)
+	if nextLevel.is_subsequence_of("r"):
+		get_tree().reload_current_scene()
+	else:
+		get_tree().change_scene_to_file(nextLevel)

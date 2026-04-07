@@ -6,11 +6,13 @@ var prevPosy = 650.0
 func _process(delta):
 	$Camera2D.position.x += $mainplayer.position.x - prevPosx
 	prevPosx = $mainplayer.position.x
-	$Camera2D
-	prevPosy = $mainplayer.position.y
-	$Node2D2.position.x += $mainplayer.position.x - prevPosx
-	$Node2D2.position.y += $mainplayer.position.y - prevPosy/2
+	#$Camera2D.position.y += $mainplayer.position.y - prevPosy/2
+	#prevPosy = $mainplayer.position.y
 
 func _on_portal_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
 	if get_tree().get_nodes_in_group("player").has(body):
 		$Node2D2/ColorRect.transition_to(nextLevel)
+
+
+func _on_area_2d_body_shape_entered(body_rid, body, body_shape_index, local_shape_index):
+	$Node2D2/ColorRect.transition_to("r")
