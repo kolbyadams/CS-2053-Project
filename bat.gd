@@ -7,16 +7,17 @@ enum State{
 }
 
 @export var speed = 100
-@export var chase_range = 50
+@export var chase_range = 125
 
 @onready var anim = $AnimatedSprite2D # easier tan calling $AnimatedSpriet2D each time
-@onready var nav_agent = %NavigationAgent2D
-@onready var player = get_tree().get_first_node_in_group("player")
+@onready var nav_agent = $NavigationAgent2D
+@export var mainplayer: CharacterBody2D
 
 var state = State.idle
 var home_position
 
 func _ready():
+	print(nav_agent)
 	home_position = global_position
 	
 func _physics_process(delta: float) -> void:
@@ -39,7 +40,7 @@ func idle_state():
 	
 func chasing_state():
 	play_anim("flying")
-	nav_agent.target_position = player.global_position
+	nav_agent.target_position = mainplayer.global_position
 
 func returning_state():
 	play_anim("flying")
@@ -64,7 +65,7 @@ func move_along_path(delta):
 #transitions between states
 
 func check_transitions():
-	var dist_to_player = global_position.distance_to(player.global_position)
+	var dist_to_player = global_position.distance_to(mainplayer.global_position)
 	
 	match state:
 		State.idle:
