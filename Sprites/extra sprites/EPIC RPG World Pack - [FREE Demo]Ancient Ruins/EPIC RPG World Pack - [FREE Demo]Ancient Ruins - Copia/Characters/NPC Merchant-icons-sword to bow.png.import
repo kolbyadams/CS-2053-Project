@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdqx7cabda3g2"
-path="res://.godot/imported/smb_tiles.png-2cad6e22c940d49ca27415c5e94c0f97.ctex"
+uid="uid://ce5nl5q2c54he"
+path="res://.godot/imported/NPC Merchant-icons-sword to bow.png-aef640665892557c5fc046f2aaa4f2d3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://smb_tiles.png"
-dest_files=["res://.godot/imported/smb_tiles.png-2cad6e22c940d49ca27415c5e94c0f97.ctex"]
+source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Characters/NPC Merchant-icons-sword to bow.png"
+dest_files=["res://.godot/imported/NPC Merchant-icons-sword to bow.png-aef640665892557c5fc046f2aaa4f2d3.ctex"]
 
 [params]
 

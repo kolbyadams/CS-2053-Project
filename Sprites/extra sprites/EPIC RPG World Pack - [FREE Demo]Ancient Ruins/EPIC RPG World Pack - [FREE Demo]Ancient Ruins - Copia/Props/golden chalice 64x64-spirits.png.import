@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdqx7cabda3g2"
-path="res://.godot/imported/smb_tiles.png-2cad6e22c940d49ca27415c5e94c0f97.ctex"
+uid="uid://c3kmcgf6km6xt"
+path="res://.godot/imported/golden chalice 64x64-spirits.png-f812f837c2301fef2dfc297780ab6b5f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://smb_tiles.png"
-dest_files=["res://.godot/imported/smb_tiles.png-2cad6e22c940d49ca27415c5e94c0f97.ctex"]
+source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Props/golden chalice 64x64-spirits.png"
+dest_files=["res://.godot/imported/golden chalice 64x64-spirits.png-f812f837c2301fef2dfc297780ab6b5f.ctex"]
 
 [params]
 

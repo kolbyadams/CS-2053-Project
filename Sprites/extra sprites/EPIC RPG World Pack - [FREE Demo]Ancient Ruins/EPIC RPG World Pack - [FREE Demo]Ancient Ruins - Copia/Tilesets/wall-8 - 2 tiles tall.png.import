@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdqx7cabda3g2"
-path="res://.godot/imported/smb_tiles.png-2cad6e22c940d49ca27415c5e94c0f97.ctex"
+uid="uid://cwrx042kbg7u"
+path="res://.godot/imported/wall-8 - 2 tiles tall.png-800ca8cf17f72b3b82c2d1d7ad994d39.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://smb_tiles.png"
-dest_files=["res://.godot/imported/smb_tiles.png-2cad6e22c940d49ca27415c5e94c0f97.ctex"]
+source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Tilesets/wall-8 - 2 tiles tall.png"
+dest_files=["res://.godot/imported/wall-8 - 2 tiles tall.png-800ca8cf17f72b3b82c2d1d7ad994d39.ctex"]
 
 [params]
 

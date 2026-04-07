@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdqx7cabda3g2"
-path="res://.godot/imported/smb_tiles.png-2cad6e22c940d49ca27415c5e94c0f97.ctex"
+uid="uid://cq3oj5mpns7f5"
+path="res://.godot/imported/char_blue_1.png-6af49e882b9ab298a4b91d4a5a01e08d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://smb_tiles.png"
-dest_files=["res://.godot/imported/smb_tiles.png-2cad6e22c940d49ca27415c5e94c0f97.ctex"]
+source_file="res://Sprites/player/generic_char_v0.2/png/blue/char_blue_1.png"
+dest_files=["res://.godot/imported/char_blue_1.png-6af49e882b9ab298a4b91d4a5a01e08d.ctex"]
 
 [params]
 

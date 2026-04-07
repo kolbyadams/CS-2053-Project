@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdqx7cabda3g2"
-path="res://.godot/imported/smb_tiles.png-2cad6e22c940d49ca27415c5e94c0f97.ctex"
+uid="uid://bisln3ee285g6"
+path="res://.godot/imported/atmospheric nature particles.png-e8281d145dee0fce3d4019c082e710ac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://smb_tiles.png"
-dest_files=["res://.godot/imported/smb_tiles.png-2cad6e22c940d49ca27415c5e94c0f97.ctex"]
+source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Props/atmospheric nature particles.png"
+dest_files=["res://.godot/imported/atmospheric nature particles.png-e8281d145dee0fce3d4019c082e710ac.ctex"]
 
 [params]
 

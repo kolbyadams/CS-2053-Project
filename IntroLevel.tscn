@@ -1,7 +1,7 @@
-[gd_scene load_steps=9 format=4 uid="uid://dk54mkk7w5uc5"]
+[gd_scene load_steps=9 format=4 uid="uid://c5akb2my8081"]
 
-[ext_resource type="Script" uid="uid://cq0iv8frkgqcu" path="res://test.gd" id="1_shq2k"]
-[ext_resource type="Texture2D" uid="uid://bdi4dggc6xo5n" path="res://smb_tiles.png" id="2_v4mlw"]
+[ext_resource type="Script" path="res://main.gd" id="1_shq2k"]
+[ext_resource type="Texture2D" uid="uid://bdqx7cabda3g2" path="res://smb_tiles.png" id="2_v4mlw"]
 [ext_resource type="PackedScene" uid="uid://chbw8qoar5fuj" path="res://player.tscn" id="3_167o5"]
 [ext_resource type="Texture2D" uid="uid://cuy64pvqtga1" path="res://Sprites/Legacy-Fantasy - High Forest 2.3/Background/Background.png" id="3_v4mlw"]
 [ext_resource type="PackedScene" uid="uid://gbow5ndyk2h5" path="res://portal.tscn" id="4_iipdv"]

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdqx7cabda3g2"
-path="res://.godot/imported/smb_tiles.png-2cad6e22c940d49ca27415c5e94c0f97.ctex"
+uid="uid://cgnjkhyhin4eb"
+path="res://.godot/imported/NPC Merchant-interaction-entry.png-ed01f6cca1aa51da9ebba152114dc92f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://smb_tiles.png"
-dest_files=["res://.godot/imported/smb_tiles.png-2cad6e22c940d49ca27415c5e94c0f97.ctex"]
+source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Characters/NPC merchant - with animated items/NPC Merchant-interaction-entry.png"
+dest_files=["res://.godot/imported/NPC Merchant-interaction-entry.png-ed01f6cca1aa51da9ebba152114dc92f.ctex"]
 
 [params]
 

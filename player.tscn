@@ -1,6 +1,6 @@
 [gd_scene load_steps=10 format=3 uid="uid://chbw8qoar5fuj"]
 
-[ext_resource type="Texture2D" uid="uid://1sfjwmtk8nup" path="res://smb_sprites2.png" id="1_4flbx"]
+[ext_resource type="Texture2D" uid="uid://14uxkq30sb35" path="res://smb_sprites2.png" id="1_4flbx"]
 [ext_resource type="Script" uid="uid://cmjuh275wssqn" path="res://player.gd" id="1_onrkg"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_onrkg"]
@@ -67,7 +67,7 @@ script = ExtResource("1_onrkg")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_1jxqw")
-animation = &"walk"
+animation = &"stand"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -0.5)

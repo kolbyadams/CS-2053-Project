@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdqx7cabda3g2"
-path="res://.godot/imported/smb_tiles.png-2cad6e22c940d49ca27415c5e94c0f97.ctex"
+uid="uid://fp4fo6t1no1s"
+path="res://.godot/imported/luck creature-idle.png-ba0cc3a3a17959e211a6b8e732dfe26c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://smb_tiles.png"
-dest_files=["res://.godot/imported/smb_tiles.png-2cad6e22c940d49ca27415c5e94c0f97.ctex"]
+source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Characters/luck creature-idle.png"
+dest_files=["res://.godot/imported/luck creature-idle.png-ba0cc3a3a17959e211a6b8e732dfe26c.ctex"]
 
 [params]
 
