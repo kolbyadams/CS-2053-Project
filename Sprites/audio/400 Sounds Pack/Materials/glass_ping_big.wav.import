@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://xmr6nu1to28g"
+path="res://.godot/imported/glass_ping_big.wav-2182c47abfba76ede75bdb218d6b6be8.sample"
+
+[deps]
+
+source_file="res://Sprites/audio/400 Sounds Pack/Materials/glass_ping_big.wav"
+dest_files=["res://.godot/imported/glass_ping_big.wav-2182c47abfba76ede75bdb218d6b6be8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
