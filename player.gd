@@ -3,6 +3,7 @@ var life = 3
 var coyote = false #whether you are within coyote time or not after leaving a ledge
 var coyoteTimer = 0 #in frames
 var speed = 0
+var diamonds_collected = 0
 #exported for easy editing
 @export var coyoteTimeMax = 6 #in frames
 @export var maxWalkSpeed = 100
@@ -53,6 +54,10 @@ func _physics_process(delta):
 		$AnimatedSprite2D.animation = "stand"
 		 
 	$AnimatedSprite2D.play()
+
+	if diamonds_collected >= 3:
+		get_parent().get_node("portal").visible = true
+
 	move_and_slide()
 
 func _on_diamond_1_body_entered(body: Node2D) -> void:
