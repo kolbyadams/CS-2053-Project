@@ -9,9 +9,9 @@ func _ready():
 	camera.global_position = screen_1.global_position
 
 func _on_to_screen_2_body_entered(body):
-	if body.name == "CharacterBody2D":
+	if body.name == "mainplayer":
 		camera.global_position = screen_2.global_position
 
 func _on_to_screen_3_body_entered(body):
-	if body.name == "CharacterBody2D":
+	if body.name == "mainplayer":
 		camera.global_position = screen_3.global_position
