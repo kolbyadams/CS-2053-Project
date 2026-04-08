@@ -15,3 +15,8 @@ func _on_to_screen_2_body_entered(body):
 func _on_to_screen_3_body_entered(body):
 	if body.name == "CharacterBody2D":
 		camera.global_position = screen_3.global_position
+
+
+func _on_portal_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
+	if get_tree().get_nodes_in_group("player").has(body):
+		$transition/ColorRect.transition_to("lvl4goeshere")

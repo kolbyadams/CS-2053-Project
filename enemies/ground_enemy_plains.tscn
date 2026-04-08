@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://b068v7sck083m"]
+
+[ext_resource type="Script" uid="uid://d18y4p4a10xa5" path="res://ground_enemy_controller.gd" id="1_cktrp"]
+[ext_resource type="Texture2D" uid="uid://c62byemw2s71m" path="res://Snow_Level/assets/SnowTiles_plains.png" id="2_cktrp"]
+[ext_resource type="Script" uid="uid://x5gfpwuk2mp0" path="res://enemies/ray_cast_2d.gd" id="3_kd4e8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5dvs4"]
+size = Vector2(27, 31)
+
+[node name="GroundEnemy" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_cktrp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("RectangleShape2D_5dvs4")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture_filter = 1
+texture = ExtResource("2_cktrp")
+region_enabled = true
+region_rect = Rect2(64, 96.021, 31, 31.8787)
+
+[node name="RayCast2D" type="RayCast2D" parent="CharacterBody2D"]
+position = Vector2(-15, -23)
+collide_with_areas = true
+script = ExtResource("3_kd4e8")

@@ -55,22 +55,24 @@ func _physics_process(delta):
 	if Input.is_action_just_pressed("attack") and !is_attacking:
 		attack()
 
-
+	
 	if direction < 0:
-		if Input.is_action_pressed("sprint"):
-			$AnimatedSprite2D.animation = "run"
-		else:
-			$AnimatedSprite2D.animation = "walk"
+		if is_on_floor():
+			if Input.is_action_pressed("sprint"):
+				$AnimatedSprite2D.animation = "run"
+			else:
+				$AnimatedSprite2D.animation = "walk"
 		$AnimatedSprite2D.flip_h = true
 	elif direction > 0:
-		if Input.is_action_pressed("sprint"):
-			$AnimatedSprite2D.animation = "run"
-		else:
-			$AnimatedSprite2D.animation = "walk"
+		if is_on_floor():
+			if Input.is_action_pressed("sprint"):
+				$AnimatedSprite2D.animation = "run"
+			else:
+				$AnimatedSprite2D.animation = "walk"
 		$AnimatedSprite2D.flip_h = false
 	elif is_on_floor():
 		$AnimatedSprite2D.animation = "stand"
-
+		
 	$AnimatedSprite2D.play()
 
 	if diamonds_collected >= 3:

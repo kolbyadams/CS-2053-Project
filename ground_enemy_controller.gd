@@ -8,10 +8,10 @@ var direction := -1
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():
 		velocity.y += gravity * delta
-
-	velocity.x = direction * speed
-	move_and_slide()
-
-	if is_on_wall():
+	if is_on_wall() or (is_on_floor() and !$RayCast2D.is_colliding()):
 		direction *= -1
 		$Sprite2D.flip_h = direction > 0
+		$RayCast2D.position.x *= -1.0
+	velocity.x = direction * speed
+	move_and_slide()
+		

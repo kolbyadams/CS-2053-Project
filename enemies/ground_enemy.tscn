@@ -1,10 +1,10 @@
 [gd_scene load_steps=4 format=3 uid="uid://bs2c252v47j0x"]
 
-[ext_resource type="Script" uid="uid://d18y4p4a10xa5" path="res://character_body_2d.gd" id="1_y8irx"]
+[ext_resource type="Script" uid="uid://d18y4p4a10xa5" path="res://ground_enemy_controller.gd" id="1_y8irx"]
 [ext_resource type="Texture2D" uid="uid://cwuwwigqoi1ah" path="res://Snow_Level/assets/SnowTiles.png" id="2_gurqy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5dvs4"]
-size = Vector2(27, 32)
+size = Vector2(27, 28)
 
 [node name="GroundEnemy" type="Node2D"]
 
@@ -12,11 +12,14 @@ size = Vector2(27, 32)
 script = ExtResource("1_y8irx")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
-position = Vector2(249.5, 104)
+position = Vector2(249.5, 105)
 shape = SubResource("RectangleShape2D_5dvs4")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture_filter = 1
 position = Vector2(250, 103)
 texture = ExtResource("2_gurqy")
 region_enabled = true
-region_rect = Rect2(64, 95.5, 31, 33)
+region_rect = Rect2(64, 95.9985, 31, 31.8916)
+
+[node name="RayCast2D" type="RayCast2D" parent="CharacterBody2D"]

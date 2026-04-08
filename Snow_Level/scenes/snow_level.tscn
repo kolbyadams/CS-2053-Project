@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=4 uid="uid://bx2c3iyjpo4ql"]
+[gd_scene load_steps=13 format=4 uid="uid://bx2c3iyjpo4ql"]
 
 [ext_resource type="Script" uid="uid://dnvf01yd83qpv" path="res://Snow_Level/scenes/snow_level.gd" id="1_3fho8"]
 [ext_resource type="Texture2D" uid="uid://dby04f2vym5rk" path="res://Snow_Level/assets/background.jpg" id="1_wku01"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://j2jcgwj6dwgf" path="res://Snow_Level/assets/cave.jpg" id="3_3fho8"]
 [ext_resource type="PackedScene" uid="uid://chbw8qoar5fuj" path="res://player.tscn" id="4_rkw6l"]
 [ext_resource type="PackedScene" uid="uid://cyapvn0b75wdb" path="res://transition2.tscn" id="6_orpbo"]
+[ext_resource type="PackedScene" uid="uid://gbow5ndyk2h5" path="res://portal.tscn" id="7_to3fd"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3fho8"]
 texture = ExtResource("2_rkw6l")
@@ -555,7 +556,12 @@ shape = SubResource("RectangleShape2D_orpbo")
 position = Vector2(1296.5, 1201)
 shape = SubResource("RectangleShape2D_to3fd")
 
-[node name="Node2D" parent="." instance=ExtResource("6_orpbo")]
+[node name="transition" parent="." instance=ExtResource("6_orpbo")]
+visible = false
+
+[node name="portal" parent="." instance=ExtResource("7_to3fd")]
+position = Vector2(2617, 838)
 
 [connection signal="body_entered" from="ToScreen2" to="." method="_on_to_screen_2_body_entered"]
 [connection signal="body_entered" from="ToScreen3" to="." method="_on_to_screen_3_body_entered"]
+[connection signal="body_shape_entered" from="portal" to="." method="_on_portal_body_shape_entered"]
