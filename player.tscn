@@ -309,4 +309,6 @@ texture = ExtResource("4_hqtel")
 position = Vector2(0, 13)
 shape = SubResource("CapsuleShape2D_sweqy")
 
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+
 [connection signal="body_shape_entered" from="hurtbox" to="." method="_on_hurtbox_body_shape_entered"]
