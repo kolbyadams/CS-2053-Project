@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=3 uid="uid://chbw8qoar5fuj"]
+[gd_scene load_steps=42 format=3 uid="uid://chbw8qoar5fuj"]
 
 [ext_resource type="Script" uid="uid://cmjuh275wssqn" path="res://player.gd" id="1_onrkg"]
 [ext_resource type="Texture2D" uid="uid://gb4v7bipu053" path="res://Sprites/player/generic_char_v0.2/png/blue/char_blue_2.png" id="2_hqtel"]
@@ -268,7 +268,11 @@ animations = [{
 radius = 5.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_onrkg"]
-size = Vector2(24.5, 12)
+size = Vector2(48.25, 12)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_sweqy"]
+radius = 5.5
+height = 30.5
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 floor_stop_on_slope = false
@@ -286,9 +290,11 @@ position = Vector2(0, 13)
 shape = SubResource("CapsuleShape2D_hqtel")
 
 [node name="AttackArea" type="Area2D" parent="."]
+collision_layer = 3
+collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AttackArea"]
-position = Vector2(0, 13)
+position = Vector2(11.875, 13)
 shape = SubResource("RectangleShape2D_onrkg")
 
 [node name="SlashSprite" type="Sprite2D" parent="AttackArea"]
@@ -296,3 +302,11 @@ texture_filter = 1
 position = Vector2(2, 11)
 scale = Vector2(1.69565, 0.309524)
 texture = ExtResource("4_hqtel")
+
+[node name="hurtbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hurtbox"]
+position = Vector2(0, 13)
+shape = SubResource("CapsuleShape2D_sweqy")
+
+[connection signal="body_shape_entered" from="hurtbox" to="." method="_on_hurtbox_body_shape_entered"]

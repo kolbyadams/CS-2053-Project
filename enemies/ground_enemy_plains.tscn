@@ -9,19 +9,21 @@ size = Vector2(27, 31)
 
 [node name="GroundEnemy" type="Node2D"]
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+[node name="Enemy" type="CharacterBody2D" parent="."]
+collision_layer = 3
+collision_mask = 3
 script = ExtResource("1_cktrp")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy"]
 shape = SubResource("RectangleShape2D_5dvs4")
 
-[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+[node name="Sprite2D" type="Sprite2D" parent="Enemy"]
 texture_filter = 1
 texture = ExtResource("2_cktrp")
 region_enabled = true
 region_rect = Rect2(64, 96.021, 31, 31.8787)
 
-[node name="RayCast2D" type="RayCast2D" parent="CharacterBody2D"]
+[node name="RayCast2D" type="RayCast2D" parent="Enemy"]
 position = Vector2(-15, -23)
 collide_with_areas = true
 script = ExtResource("3_kd4e8")

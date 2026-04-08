@@ -6,20 +6,18 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5dvs4"]
 size = Vector2(27, 28)
 
-[node name="GroundEnemy" type="Node2D"]
+[node name="GroundEnemy" type="Node2D" groups=["enemies"]]
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+[node name="Enemy" type="CharacterBody2D" parent="."]
 script = ExtResource("1_y8irx")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
-position = Vector2(249.5, 105)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy"]
 shape = SubResource("RectangleShape2D_5dvs4")
 
-[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+[node name="Sprite2D" type="Sprite2D" parent="Enemy"]
 texture_filter = 1
-position = Vector2(250, 103)
 texture = ExtResource("2_gurqy")
 region_enabled = true
 region_rect = Rect2(64, 95.9985, 31, 31.8916)
 
-[node name="RayCast2D" type="RayCast2D" parent="CharacterBody2D"]
+[node name="RayCast2D" type="RayCast2D" parent="Enemy"]

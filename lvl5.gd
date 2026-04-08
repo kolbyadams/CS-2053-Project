@@ -58,3 +58,25 @@ func _on_timeleap_2_body_shape_entered(body_rid: RID, body: Node2D, body_shape_i
 		$lvl1.position = Vector2(10000,10000)
 		$lvl1.visible = false
 		$lvl2.visible = true
+
+
+func _on_mainplayer_dead() -> void:
+	$transition/ColorRect.transition_to("r")
+
+
+func _on_timeleap_3_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
+	$lvl1/timeleap3.queue_free()
+	$lvl1.visible = false
+	$lvl3.visible = true
+
+
+func _on_timeleap_4_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
+	$lvl3/timeleap4.queue_free()
+	$lvl1.visible = true
+	$lvl3.visible = false
+
+
+func _on_timeleap_5_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
+	$lvl1/timeleap5.queue_free()
+	$lvl1.visible = false
+	$lvl3.visible = true

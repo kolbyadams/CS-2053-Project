@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 [gd_scene load_steps=19 format=4 uid="uid://bx2c3iyjpo4ql"]
-=======
-[gd_scene load_steps=13 format=4 uid="uid://bx2c3iyjpo4ql"]
->>>>>>> ea34e30ecf671e2d7c94ed20ab3555c59036eddf
 
 [ext_resource type="Script" uid="uid://dnvf01yd83qpv" path="res://Snow_Level/scenes/snow_level.gd" id="1_3fho8"]
 [ext_resource type="Texture2D" uid="uid://dby04f2vym5rk" path="res://Snow_Level/assets/background.jpg" id="1_wku01"]
@@ -10,16 +6,12 @@
 [ext_resource type="Texture2D" uid="uid://j2jcgwj6dwgf" path="res://Snow_Level/assets/cave.jpg" id="3_3fho8"]
 [ext_resource type="PackedScene" uid="uid://chbw8qoar5fuj" path="res://player.tscn" id="4_rkw6l"]
 [ext_resource type="PackedScene" uid="uid://cyapvn0b75wdb" path="res://transition2.tscn" id="6_orpbo"]
-<<<<<<< HEAD
 [ext_resource type="PackedScene" uid="uid://bs2c252v47j0x" path="res://enemies/ground_enemy.tscn" id="7_to3fd"]
 [ext_resource type="Script" uid="uid://olpncqjgu2m" path="res://diamond_1.gd" id="8_18gfs"]
 [ext_resource type="Texture2D" uid="uid://b0yungc0tad2a" path="res://DeepCave-CubeAssets/SingleTile/Crystal-Base.png" id="9_0w221"]
 [ext_resource type="Script" uid="uid://b1r87w28apwgc" path="res://diamond_2.gd" id="10_pap1j"]
 [ext_resource type="Script" uid="uid://cim0i70mqte41" path="res://diamond_3.gd" id="11_tttbn"]
 [ext_resource type="PackedScene" uid="uid://gbow5ndyk2h5" path="res://portal.tscn" id="12_qxfkl"]
-=======
-[ext_resource type="PackedScene" uid="uid://gbow5ndyk2h5" path="res://portal.tscn" id="7_to3fd"]
->>>>>>> ea34e30ecf671e2d7c94ed20ab3555c59036eddf
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3fho8"]
 texture = ExtResource("2_rkw6l")
@@ -567,16 +559,11 @@ position = Vector2(1221, 734.5)
 shape = SubResource("RectangleShape2D_orpbo")
 
 [node name="ToScreen3" type="Area2D" parent="."]
-position = Vector2(53, 100)
+position = Vector2(1286, 1228)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ToScreen3"]
-position = Vector2(1268, 1097)
+position = Vector2(0, -26)
 shape = SubResource("RectangleShape2D_to3fd")
-
-<<<<<<< HEAD
-[node name="Node2D" parent="." instance=ExtResource("6_orpbo")]
-visible = false
-position = Vector2(43900, 47502)
 
 [node name="GroundEnemy" parent="." instance=ExtResource("7_to3fd")]
 position = Vector2(488, 472)
@@ -632,20 +619,16 @@ shape = SubResource("CircleShape2D_ueww8")
 visible = false
 position = Vector2(2564, 822)
 
+[node name="transition" parent="." instance=ExtResource("6_orpbo")]
+visible = false
+
+[node name="portal2" parent="." instance=ExtResource("7_to3fd")]
+position = Vector2(2617, 838)
+
 [connection signal="body_entered" from="ToScreen2" to="." method="_on_to_screen_2_body_entered"]
 [connection signal="body_entered" from="ToScreen3" to="." method="_on_to_screen_3_body_entered"]
 [connection signal="body_entered" from="Diamonds/Diamond1" to="Diamonds/Diamond1" method="_on_body_entered"]
 [connection signal="body_entered" from="Diamonds/Diamond2" to="Diamonds/Diamond1" method="_on_diamond_2_body_entered"]
 [connection signal="body_entered" from="Diamonds/Diamond2" to="Diamonds/Diamond2" method="_on_body_entered"]
 [connection signal="body_entered" from="Diamonds/Diamond3" to="Diamonds/Diamond3" method="_on_body_entered"]
-=======
-[node name="transition" parent="." instance=ExtResource("6_orpbo")]
-visible = false
-
-[node name="portal" parent="." instance=ExtResource("7_to3fd")]
-position = Vector2(2617, 838)
-
-[connection signal="body_entered" from="ToScreen2" to="." method="_on_to_screen_2_body_entered"]
-[connection signal="body_entered" from="ToScreen3" to="." method="_on_to_screen_3_body_entered"]
 [connection signal="body_shape_entered" from="portal" to="." method="_on_portal_body_shape_entered"]
->>>>>>> ea34e30ecf671e2d7c94ed20ab3555c59036eddf

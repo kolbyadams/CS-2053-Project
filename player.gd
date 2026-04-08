@@ -1,6 +1,6 @@
 extends CharacterBody2D
-
-var life = 3
+signal dead
+var life = 3.0
 var coyote = false
 var coyoteTimer = 0
 var speed = 0
@@ -77,8 +77,10 @@ func _physics_process(delta):
 
 	if diamonds_collected >= 3:
 		get_parent().get_node("portal").visible = true
-
+	
 	move_and_slide()
+	if life <= 0:
+		dead.emit()
 
 func attack():
 	is_attacking = true
@@ -101,9 +103,14 @@ func attack():
 	is_attacking = false
 
 func _on_attack_area_body_entered(body):
-	if body.is_in_group("enemies"):
-		body.take_damage(1, last_dir)
+	if body is CharacterBody2D and not body.name == "mainplayer":
+		body.take_damage(1)
 
 func _on_diamond_1_body_entered(body: Node2D) -> void:
 	if body.name == "mainplayer":
 		queue_free()
+
+func _on_hurtbox_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
+	if body.name.contains("Enemy"):
+		life -= 0.5
+		print(life)

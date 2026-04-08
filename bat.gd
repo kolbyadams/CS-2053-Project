@@ -1,5 +1,6 @@
 extends CharacterBody2D
-var health = 1
+var health = 2
+
 enum State{
 	idle,
 	chasing,
@@ -32,6 +33,8 @@ func _physics_process(delta: float) -> void:
 	move_along_path(delta)
 	check_transitions()
 	
+	if health < 1:
+		queue_free()
 #states
 
 func idle_state():
@@ -83,3 +86,6 @@ func check_transitions():
 func play_anim(name):
 	if anim.animation != name:
 		anim.play(name)
+
+func take_damage(damage: float):
+	health -= damage

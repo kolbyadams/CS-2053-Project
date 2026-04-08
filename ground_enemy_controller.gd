@@ -1,4 +1,5 @@
 extends CharacterBody2D
+var health = 3.0
 
 @export var speed: float = 60.0
 @export var gravity: float = 1200.0
@@ -15,3 +16,8 @@ func _physics_process(delta: float) -> void:
 	velocity.x = direction * speed
 	move_and_slide()
 		
+	if health < 1:
+		queue_free()
+func take_damage(damage: float):
+	health -= damage
+	print(health)
