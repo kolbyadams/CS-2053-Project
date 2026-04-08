@@ -34,7 +34,9 @@ func _on_camtransition_1_body_shape_entered(_body_rid: RID, body: Node2D, _body_
 func _on_diamond_2_body_entered(body: Node2D) -> void:
 	if get_tree().get_nodes_in_group("player").has(body):
 		$maincam.make_current()
-
+		$lvl1.visible = true
+		$lvl2.visible = false
+		$lvl1.position = Vector2.ZERO
 
 func _on_cp_1_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
 	if get_tree().get_nodes_in_group("player").has(body):

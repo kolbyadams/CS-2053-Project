@@ -1,5 +1,5 @@
 extends CharacterBody2D
-
+var health = 1
 enum State{
 	idle,
 	chasing,
