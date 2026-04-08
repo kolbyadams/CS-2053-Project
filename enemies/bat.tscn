@@ -1,8 +1,11 @@
-[gd_scene load_steps=17 format=3 uid="uid://cbp25unas4r2f"]
+[gd_scene load_steps=18 format=3 uid="uid://cbp25unas4r2f"]
 
 [ext_resource type="Script" uid="uid://ljavmgji8ywt" path="res://bat.gd" id="1_mtn0m"]
 [ext_resource type="Texture2D" uid="uid://dwqa5rnywpwxb" path="res://Sprites/enemies/lvl2(caves)/Bat/Bat without VFX/Bat-IdleFly.png" id="2_tc28o"]
 [ext_resource type="Texture2D" uid="uid://bjrf1kvi8ddbf" path="res://Sprites/enemies/lvl2(caves)/Bat/Bat without VFX/Bat-Sleep.png" id="3_tc28o"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_tc28o"]
+radius = 7.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5of3o"]
 atlas = ExtResource("2_tc28o")
@@ -105,12 +108,11 @@ animations = [{
 position = Vector2(43, 38)
 script = ExtResource("1_mtn0m")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="BatEnemy" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_tc28o")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_5ka0c")
-animation = &"idle"
+animation = &"flying"
 
 [node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
-
-[node name="Area2D" type="Area2D" parent="."]

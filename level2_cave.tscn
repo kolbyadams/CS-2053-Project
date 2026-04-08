@@ -1,5 +1,6 @@
-[gd_scene load_steps=19 format=3 uid="uid://dhfnc0prhqv0b"]
+[gd_scene load_steps=21 format=3 uid="uid://dhfnc0prhqv0b"]
 
+[ext_resource type="Script" uid="uid://31hejrfa7b6p" path="res://level_2_cave.gd" id="1_0mkep"]
 [ext_resource type="Texture2D" uid="uid://def434uy5xbco" path="res://DeepCave-CubeAssets/Tileset/DeepCaveTile.png" id="1_kdtfp"]
 [ext_resource type="PackedScene" uid="uid://chbw8qoar5fuj" path="res://player.tscn" id="1_nbr83"]
 [ext_resource type="PackedScene" uid="uid://gbow5ndyk2h5" path="res://portal.tscn" id="2_6qirt"]
@@ -106,7 +107,13 @@ vertices = PackedVector2Array(380.102, 100.453, 333, 194.648, 333, 37, 464.102, 
 polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3), PackedInt32Array(3, 4, 0), PackedInt32Array(5, 3, 2, 6), PackedInt32Array(5, 7, 8, 9, 10, 11), PackedInt32Array(6, 12, 7, 5), PackedInt32Array(9, 13, 14, 10), PackedInt32Array(15, 16, 5, 17), PackedInt32Array(10, 18, 11), PackedInt32Array(5, 11, 17)])
 outlines = Array[PackedVector2Array]([PackedVector2Array(-481, -247, -482, 94, -330, 95, -325, 43, -226, 43, -223, 108, -144, 110, -141, 246, 105, 249, 106, 174, 175, 176, 172, 113, 238, 111, 235, 47, 323, 47, 323, 237, 386, 111, 478, 119, 474, -253)])
 
+[sub_resource type="LabelSettings" id="LabelSettings_x54sv"]
+font_size = 20
+outline_size = 7
+outline_color = Color(0, 0, 0, 1)
+
 [node name="level2_cave" type="Node2D"]
+script = ExtResource("1_0mkep")
 
 [node name="map" type="Node2D" parent="."]
 
@@ -229,6 +236,15 @@ navigation_polygon = SubResource("NavigationPolygon_x54sv")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NavigationRegion2D"]
 
+[node name="healthLabel" type="Label" parent="."]
+z_index = 1000
+offset_left = -508.0
+offset_top = -287.0
+offset_right = -420.0
+offset_bottom = -257.0
+text = "Health: 3"
+label_settings = SubResource("LabelSettings_x54sv")
+
 [connection signal="body_entered" from="map/Diamonds/Diamond1" to="map/Diamonds/Diamond1" method="_on_body_entered"]
 [connection signal="body_entered" from="map/Diamonds/Diamond2" to="map/Diamonds/Diamond1" method="_on_diamond_2_body_entered"]
 [connection signal="body_entered" from="map/Diamonds/Diamond2" to="map/Diamonds/Diamond2" method="_on_body_entered"]
@@ -236,3 +252,4 @@ navigation_polygon = SubResource("NavigationPolygon_x54sv")
 [connection signal="body_entered" from="map/Hazards/Lava1" to="map/Hazards/Lava1" method="_on_body_entered"]
 [connection signal="body_entered" from="map/Hazards/Lava2" to="map/Hazards/Lava2" method="_on_body_entered"]
 [connection signal="body_entered" from="map/Hazards/Lava3" to="map/Hazards/Lava3" method="_on_body_entered"]
+[connection signal="dead" from="mainplayer" to="." method="_on_mainplayer_dead"]

@@ -113,4 +113,3 @@ func _on_diamond_1_body_entered(body: Node2D) -> void:
 func _on_hurtbox_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
 	if body.name.contains("Enemy"):
 		life -= 0.5
-		print(life)

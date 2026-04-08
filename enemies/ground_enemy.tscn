@@ -16,8 +16,9 @@ shape = SubResource("RectangleShape2D_5dvs4")
 
 [node name="Sprite2D" type="Sprite2D" parent="Enemy"]
 texture_filter = 1
+position = Vector2(0, -2)
 texture = ExtResource("2_gurqy")
 region_enabled = true
-region_rect = Rect2(64, 95.9985, 31, 31.8916)
+region_rect = Rect2(65.6213, 95.9985, 28.9708, 31.9868)
 
 [node name="RayCast2D" type="RayCast2D" parent="Enemy"]

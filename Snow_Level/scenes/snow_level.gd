@@ -8,6 +8,11 @@ extends Node2D
 func _ready():
 	camera.global_position = screen_1.global_position
 
+func _process(_delta):
+	$healthlabel.text = "health: %s" % $mainplayer.life
+	$healthlabel2.text = "health: %s" % $mainplayer.life
+	$healthlabel3.text = "health: %s" % $mainplayer.life
+	
 func _on_to_screen_2_body_entered(body):
 	if body.name == "mainplayer":
 		camera.global_position = screen_2.global_position
@@ -17,6 +22,6 @@ func _on_to_screen_3_body_entered(body):
 		camera.global_position = screen_3.global_position
 
 
-func _on_portal_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
-	if get_tree().get_nodes_in_group("player").has(body):
-		$transition/ColorRect.transition_to("lvl4goeshere")
+func _on_mainplayer_dead() -> void:
+	get_tree().reload_current_scene()
+	

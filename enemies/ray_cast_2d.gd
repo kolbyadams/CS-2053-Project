@@ -5,5 +5,3 @@ func _physics_process(delta: float) -> void:
 	# use global coordinates, not local to node
 	var query = PhysicsRayQueryParameters2D.create(Vector2(0, 0), Vector2(50, 100))
 	var result = space_state.intersect_ray(query)
-	if result:
-		print("Hit at point: ", result.position)

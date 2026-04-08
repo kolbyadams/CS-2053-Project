@@ -9,6 +9,8 @@ func _ready():
 func _process(_delta):
 	$maincam.position.x += $mainplayer.position.x - prevPosx
 	prevPosx = $mainplayer.position.x
+	$lvl2cam/healthlabel2.text = "health: %s" % $mainplayer.life
+	$maincam/healthlabel1.text = "health: %s" % $mainplayer.life
 
 #exit portal
 func _on_portal_body_shape_entered(_body_rid: RID, body: Node2D, _body_shape_index: int, _local_shape_index: int) -> void:
@@ -23,6 +25,7 @@ func _on_area_2d_body_shape_entered(body_rid, body, body_shape_index, local_shap
 #lvl2 transition
 func _on_camtransition_1_body_shape_entered(_body_rid: RID, body: Node2D, _body_shape_index: int, _local_shape_index: int) -> void:
 	if get_tree().get_nodes_in_group("player").has(body):
+		$maincam.visible = false
 		$lvl2cam.make_current()
 		$lvl2.position = Vector2.ZERO
 		$lvl1.position = Vector2(10000,10000)
@@ -33,6 +36,7 @@ func _on_camtransition_1_body_shape_entered(_body_rid: RID, body: Node2D, _body_
 
 func _on_diamond_2_body_entered(body: Node2D) -> void:
 	if get_tree().get_nodes_in_group("player").has(body):
+		$maincam.visible = true
 		$maincam.make_current()
 		$lvl1.visible = true
 		$lvl2.visible = false
@@ -61,7 +65,7 @@ func _on_timeleap_2_body_shape_entered(body_rid: RID, body: Node2D, body_shape_i
 
 
 func _on_mainplayer_dead() -> void:
-	$transition/ColorRect.transition_to("r")
+	get_tree().reload_current_scene()
 
 
 func _on_timeleap_3_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
