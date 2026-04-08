@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=4 uid="uid://bx2c3iyjpo4ql"]
+[gd_scene load_steps=24 format=4 uid="uid://bx2c3iyjpo4ql"]
 
 [ext_resource type="Script" uid="uid://dnvf01yd83qpv" path="res://Snow_Level/scenes/snow_level.gd" id="1_3fho8"]
 [ext_resource type="Texture2D" uid="uid://dby04f2vym5rk" path="res://Snow_Level/assets/background.jpg" id="1_wku01"]
@@ -12,6 +12,8 @@
 [ext_resource type="Script" uid="uid://b1r87w28apwgc" path="res://diamond_2.gd" id="10_pap1j"]
 [ext_resource type="Script" uid="uid://cim0i70mqte41" path="res://diamond_3.gd" id="11_tttbn"]
 [ext_resource type="PackedScene" uid="uid://gbow5ndyk2h5" path="res://portal.tscn" id="12_qxfkl"]
+[ext_resource type="AudioStream" uid="uid://xagwkpcvx4ng" path="res://Sprites/audio/dragon-studio-blizzard-wind-463217.mp3" id="13_0w221"]
+[ext_resource type="AudioStream" uid="uid://bj1r2om755w45" path="res://Sprites/audio/fronbondi_skegs-sfx-drips-from-ice-melt-in-a-glacial-cave-sound-effect-368277.mp3" id="14_pap1j"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3fho8"]
 texture = ExtResource("2_rkw6l")
@@ -545,6 +547,7 @@ tile_set = SubResource("TileSet_to3fd")
 
 [node name="background_cave" type="Sprite2D" parent="."]
 z_index = -10
+texture_filter = 1
 position = Vector2(647.5, 1089)
 scale = Vector2(0.910815, 1)
 texture = ExtResource("3_3fho8")
@@ -636,7 +639,7 @@ shape = SubResource("CircleShape2D_ueww8")
 [node name="portal" parent="." instance=ExtResource("12_qxfkl")]
 visible = false
 position = Vector2(2564, 822)
-nextLevel = "res://lvl5.tscn"
+nextLevel = "res://level4.tscn"
 
 [node name="transition" parent="." instance=ExtResource("6_orpbo")]
 visible = false
@@ -668,6 +671,17 @@ offset_right = 1420.0
 offset_bottom = 703.0
 text = "health: 3"
 label_settings = SubResource("LabelSettings_pap1j")
+
+[node name="wind" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(644, 0)
+stream = ExtResource("13_0w221")
+autoplay = true
+attenuation = 0.57435
+parameters/looping = true
+
+[node name="ice cave" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("14_pap1j")
+parameters/looping = true
 
 [connection signal="dead" from="mainplayer" to="." method="_on_mainplayer_dead"]
 [connection signal="body_entered" from="ToScreen2" to="." method="_on_to_screen_2_body_entered"]

@@ -12,11 +12,14 @@ func _process(_delta):
 	$healthlabel.text = "health: %s" % $mainplayer.life
 	$healthlabel2.text = "health: %s" % $mainplayer.life
 	$healthlabel3.text = "health: %s" % $mainplayer.life
+	if Input.is_action_just_pressed("restart level"):
+		get_tree().reload_current_scene()
 	
 func _on_to_screen_2_body_entered(body):
 	if body.name == "mainplayer":
 		camera.global_position = screen_2.global_position
-
+		$wind.stop()
+		$"ice cave".play()
 func _on_to_screen_3_body_entered(body):
 	if body.name == "mainplayer":
 		camera.global_position = screen_3.global_position

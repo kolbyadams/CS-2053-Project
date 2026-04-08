@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=4 uid="uid://c5akb2my8081"]
+[gd_scene load_steps=19 format=4 uid="uid://c5akb2my8081"]
 
 [ext_resource type="Script" uid="uid://dk72xie8b1y7g" path="res://intro_level.gd" id="1_i0wim"]
 [ext_resource type="Texture2D" uid="uid://bdqx7cabda3g2" path="res://smb_tiles.png" id="2_v4mlw"]
@@ -9,6 +9,8 @@
 [ext_resource type="Script" uid="uid://biam3ehdmt2xy" path="res://camera_2d.gd" id="6_167o5"]
 [ext_resource type="PackedScene" uid="uid://cyapvn0b75wdb" path="res://transition2.tscn" id="8_0ot2s"]
 [ext_resource type="PackedScene" uid="uid://b068v7sck083m" path="res://enemies/ground_enemy_plains.tscn" id="9_0ot2s"]
+[ext_resource type="AudioStream" uid="uid://60ffskxejuhu" path="res://Sprites/audio/storegraphic-soft-wind-477404.mp3" id="10_wj0hb"]
+[ext_resource type="AudioStream" uid="uid://dob6jcxdp8kyr" path="res://Sprites/audio/dragon-studio-wind-rustling-grass-339094.mp3" id="11_63us8"]
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_o0rcv"]
 tile_data = PackedInt32Array(65536, 131072, 3, 1, 196608, 2, 65537, 196608, 3, 131073, 196608, 4, 196609, 196608, 4, 262145, 196608, 4, 327681, 196608, 4, 393217, 196608, 4, 458753, 196608, 4, 524289, 196608, 4, 589825, 196608, 4, 655361, 786432, 6)
@@ -709,6 +711,11 @@ physics_layer_0/collision_layer = 2
 navigation_layer_0/layers = 0
 sources/0 = SubResource("TileSetAtlasSource_i0wim")
 
+[sub_resource type="LabelSettings" id="LabelSettings_wj0hb"]
+font_size = 9
+outline_size = 7
+outline_color = Color(0, 0, 0, 1)
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f6b2m"]
 size = Vector2(5335, 80.5)
 
@@ -743,8 +750,8 @@ tile_set = SubResource("TileSet_0ot2s")
 position = Vector2(12, 650)
 script = null
 
-[node name="mainplayer" parent="." groups=["player"] instance=ExtResource("3_167o5")]
-position = Vector2(4800, 611)
+[node name="mainplayer" parent="." instance=ExtResource("3_167o5")]
+position = Vector2(29, 641)
 
 [node name="portal2" parent="." instance=ExtResource("4_iipdv")]
 position = Vector2(4958, 637)
@@ -758,6 +765,15 @@ limit_top = 0
 script = ExtResource("6_167o5")
 player = NodePath("../mainplayer")
 
+[node name="Label" type="Label" parent="Camera2D"]
+z_index = 4000
+offset_left = -154.0
+offset_top = -89.0
+offset_right = -116.0
+offset_bottom = -76.0
+text = "health: 3"
+label_settings = SubResource("LabelSettings_wj0hb")
+
 [node name="deathbox" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="deathbox"]
@@ -769,29 +785,40 @@ visible = false
 
 [node name="enemies" type="Node2D" parent="." groups=["enemies"]]
 
-[node name="GroundEnemy" parent="enemies" groups=["enemies"] instance=ExtResource("9_0ot2s")]
+[node name="GroundEnemy" parent="enemies" instance=ExtResource("9_0ot2s")]
 position = Vector2(790, 650)
 
-[node name="GroundEnemy2" parent="enemies" groups=["enemies", "enemy"] instance=ExtResource("9_0ot2s")]
+[node name="GroundEnemy2" parent="enemies" groups=["enemy"] instance=ExtResource("9_0ot2s")]
 position = Vector2(1209, 649)
 
-[node name="GroundEnemy3" parent="enemies" groups=["enemies", "enemy"] instance=ExtResource("9_0ot2s")]
+[node name="GroundEnemy3" parent="enemies" groups=["enemy"] instance=ExtResource("9_0ot2s")]
 position = Vector2(1706, 557)
 
-[node name="GroundEnemy4" parent="enemies" groups=["enemies", "enemy"] instance=ExtResource("9_0ot2s")]
+[node name="GroundEnemy4" parent="enemies" groups=["enemy"] instance=ExtResource("9_0ot2s")]
 position = Vector2(2968, 651)
 
-[node name="GroundEnemy5" parent="enemies" groups=["enemies", "enemy"] instance=ExtResource("9_0ot2s")]
+[node name="GroundEnemy5" parent="enemies" groups=["enemy"] instance=ExtResource("9_0ot2s")]
 position = Vector2(3176, 653)
 
-[node name="GroundEnemy6" parent="enemies" groups=["enemies", "enemy"] instance=ExtResource("9_0ot2s")]
+[node name="GroundEnemy6" parent="enemies" groups=["enemy"] instance=ExtResource("9_0ot2s")]
 position = Vector2(3737, 650)
 
-[node name="GroundEnemy7" parent="enemies" groups=["enemies", "enemy"] instance=ExtResource("9_0ot2s")]
+[node name="GroundEnemy7" parent="enemies" groups=["enemy"] instance=ExtResource("9_0ot2s")]
 position = Vector2(4519, 649)
 
-[node name="GroundEnemy8" parent="enemies" groups=["enemies", "enemy"] instance=ExtResource("9_0ot2s")]
+[node name="GroundEnemy8" parent="enemies" groups=["enemy"] instance=ExtResource("9_0ot2s")]
 position = Vector2(4652, 603)
+
+[node name="wind" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("10_wj0hb")
+volume_db = -1.98
+autoplay = true
+max_distance = 100000.0
+
+[node name="grass" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("11_63us8")
+autoplay = true
+max_distance = 100000.0
 
 [connection signal="dead" from="mainplayer" to="." method="_on_mainplayer_dead"]
 [connection signal="body_shape_entered" from="portal2" to="." method="_on_portal_2_body_shape_entered"]

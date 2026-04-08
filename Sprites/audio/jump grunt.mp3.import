@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dd722ugtihks3"
+path="res://.godot/imported/jump grunt.mp3-fb95a07ddddebd190fd567dcbf8e2bef.mp3str"
+
+[deps]
+
+source_file="res://Sprites/audio/jump grunt.mp3"
+dest_files=["res://.godot/imported/jump grunt.mp3-fb95a07ddddebd190fd567dcbf8e2bef.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,9 +1,13 @@
-[gd_scene load_steps=42 format=3 uid="uid://chbw8qoar5fuj"]
+[gd_scene load_steps=46 format=3 uid="uid://chbw8qoar5fuj"]
 
 [ext_resource type="Script" uid="uid://cmjuh275wssqn" path="res://player.gd" id="1_onrkg"]
 [ext_resource type="Texture2D" uid="uid://gb4v7bipu053" path="res://Sprites/player/generic_char_v0.2/png/blue/char_blue_2.png" id="2_hqtel"]
 [ext_resource type="Texture2D" uid="uid://cq3oj5mpns7f5" path="res://Sprites/player/generic_char_v0.2/png/blue/char_blue_1.png" id="3_hqtel"]
 [ext_resource type="Texture2D" uid="uid://d0b0awmh5hnyj" path="res://Sprites/player/male_hero_free/male_hero_slash.png" id="4_hqtel"]
+[ext_resource type="AudioStream" uid="uid://duhj2vuk26hqc" path="res://Sprites/audio/walk.mp3" id="5_2hs0m"]
+[ext_resource type="AudioStream" uid="uid://bckrn7f1j8mo3" path="res://Sprites/audio/400 Sounds Pack/Weapons/sword_slice.wav" id="6_2hs0m"]
+[ext_resource type="AudioStream" uid="uid://c78h785jj6phs" path="res://Sprites/audio/run.mp3" id="7_1jxqw"]
+[ext_resource type="AudioStream" uid="uid://dd722ugtihks3" path="res://Sprites/audio/jump grunt.mp3" id="8_dw050"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nvl01"]
 atlas = ExtResource("2_hqtel")
@@ -274,7 +278,7 @@ size = Vector2(48.25, 12)
 radius = 5.5
 height = 30.5
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[node name="CharacterBody2D" type="CharacterBody2D" groups=["player"]]
 floor_stop_on_slope = false
 floor_constant_speed = true
 floor_snap_length = 2.0
@@ -308,6 +312,21 @@ texture = ExtResource("4_hqtel")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="hurtbox"]
 position = Vector2(0, 13)
 shape = SubResource("CapsuleShape2D_sweqy")
+
+[node name="walk" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_2hs0m")
+parameters/looping = false
+
+[node name="slash" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_2hs0m")
+volume_db = -9.905
+
+[node name="run" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_1jxqw")
+
+[node name="jump" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_dw050")
+pitch_scale = 1.1
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 

@@ -1,0 +1,53 @@
+[gd_scene load_steps=3 format=3 uid="uid://ci7jp13e3lvdw"]
+
+[ext_resource type="Texture2D" uid="uid://cm3us5lgv447s" path="res://Sprites/resume.png" id="2_05uyy"]
+[ext_resource type="Texture2D" uid="uid://ddxsg3gd3lv5w" path="res://Sprites/restart.png" id="3_05uyy"]
+
+[node name="control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="pause menu" type="Node2D" parent="."]
+z_index = 4096
+position = Vector2(0, -200)
+
+[node name="restart" type="Button" parent="pause menu"]
+offset_left = -42.0
+offset_top = 19.0
+offset_right = 42.0
+offset_bottom = 47.0
+action_mode = 0
+button_mask = 7
+icon = ExtResource("3_05uyy")
+metadata/_edit_use_anchors_ = true
+
+[node name="resumne" type="Button" parent="pause menu"]
+offset_left = -42.0
+offset_top = -17.0
+offset_right = 42.0
+offset_bottom = 11.0
+action_mode = 0
+icon = ExtResource("2_05uyy")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="pause menu"]
+offset_left = -42.0
+offset_top = -58.0
+offset_right = 42.0
+offset_bottom = -35.0
+text = "paused"
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="pausecam" type="Camera2D" parent="pause menu"]
+zoom = Vector2(3, 3)
+
+[node name="exit" type="Button" parent="pause menu"]
+offset_left = -18.5
+offset_top = 56.0
+offset_right = 18.5
+offset_bottom = 87.0
+text = "exit 
+"
