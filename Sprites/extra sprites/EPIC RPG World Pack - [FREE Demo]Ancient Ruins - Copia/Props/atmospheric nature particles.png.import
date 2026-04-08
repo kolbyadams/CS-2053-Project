@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bisln3ee285g6"
-path="res://.godot/imported/atmospheric nature particles.png-e8281d145dee0fce3d4019c082e710ac.ctex"
+path="res://.godot/imported/atmospheric nature particles.png-66b17e2c87206c301a9d29ec10d58dd9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Props/atmospheric nature particles.png"
-dest_files=["res://.godot/imported/atmospheric nature particles.png-e8281d145dee0fce3d4019c082e710ac.ctex"]
+source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Props/atmospheric nature particles.png"
+dest_files=["res://.godot/imported/atmospheric nature particles.png-66b17e2c87206c301a9d29ec10d58dd9.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2rfpxsek428o"
-path="res://.godot/imported/NPC Merchant-idle.png-9b9ccf732cdd527fb990036f736bebd8.ctex"
+path="res://.godot/imported/NPC Merchant-idle.png-f43c6e489f49faeac2ae6270d1efa67c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Characters/NPC Merchant-idle.png"
-dest_files=["res://.godot/imported/NPC Merchant-idle.png-9b9ccf732cdd527fb990036f736bebd8.ctex"]
+source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Characters/NPC Merchant-idle.png"
+dest_files=["res://.godot/imported/NPC Merchant-idle.png-f43c6e489f49faeac2ae6270d1efa67c.ctex"]
 
 [params]
 

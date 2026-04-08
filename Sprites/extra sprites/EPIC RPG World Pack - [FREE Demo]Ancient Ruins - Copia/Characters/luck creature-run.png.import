@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4u6ndmmi3va6"
-path="res://.godot/imported/luck creature-run.png-5040d221d048ab9d5315df848704abf2.ctex"
+path="res://.godot/imported/luck creature-run.png-0161f9ce458c8398018fe0e66f4ae92c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Characters/luck creature-run.png"
-dest_files=["res://.godot/imported/luck creature-run.png-5040d221d048ab9d5315df848704abf2.ctex"]
+source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Characters/luck creature-run.png"
+dest_files=["res://.godot/imported/luck creature-run.png-0161f9ce458c8398018fe0e66f4ae92c.ctex"]
 
 [params]
 

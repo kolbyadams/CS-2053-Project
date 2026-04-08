@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ds5xih2x8vht1"
-path="res://.godot/imported/Tileset-Animated Terrains-8 frames- transparency.png-d85f86d2731cf03bb0ef648a96ed313f.ctex"
+path="res://.godot/imported/Tileset-Animated Terrains-8 frames- transparency.png-f5ca30fc495c37de38f3667090497d7e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Tilesets/Tileset-Animated Terrains-8 frames- transparency.png"
-dest_files=["res://.godot/imported/Tileset-Animated Terrains-8 frames- transparency.png-d85f86d2731cf03bb0ef648a96ed313f.ctex"]
+source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Tilesets/Tileset-Animated Terrains-8 frames- transparency.png"
+dest_files=["res://.godot/imported/Tileset-Animated Terrains-8 frames- transparency.png-f5ca30fc495c37de38f3667090497d7e.ctex"]
 
 [params]
 

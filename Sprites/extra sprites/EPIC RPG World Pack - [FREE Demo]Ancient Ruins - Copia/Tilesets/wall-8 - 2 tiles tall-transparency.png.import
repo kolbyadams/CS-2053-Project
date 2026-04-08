@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjiymhvyeuj1u"
-path="res://.godot/imported/wall-8 - 2 tiles tall-transparency.png-b3fde6bbe35062630a24e66b07f036de.ctex"
+path="res://.godot/imported/wall-8 - 2 tiles tall-transparency.png-ba4d87a94813b429cae7e376b4d35e67.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Tilesets/wall-8 - 2 tiles tall-transparency.png"
-dest_files=["res://.godot/imported/wall-8 - 2 tiles tall-transparency.png-b3fde6bbe35062630a24e66b07f036de.ctex"]
+source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Tilesets/wall-8 - 2 tiles tall-transparency.png"
+dest_files=["res://.godot/imported/wall-8 - 2 tiles tall-transparency.png-ba4d87a94813b429cae7e376b4d35e67.ctex"]
 
 [params]
 

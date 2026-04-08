@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7uu52j6m6hfe"
-path="res://.godot/imported/NPC Merchant-icons-bow.png-40c4cd818925697c6d0a7c10868f2ca4.ctex"
+path="res://.godot/imported/NPC Merchant-icons-bow.png-175e62f65bb9b261c4f754f13166773b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Characters/NPC Merchant-icons-bow.png"
-dest_files=["res://.godot/imported/NPC Merchant-icons-bow.png-40c4cd818925697c6d0a7c10868f2ca4.ctex"]
+source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Characters/NPC Merchant-icons-bow.png"
+dest_files=["res://.godot/imported/NPC Merchant-icons-bow.png-175e62f65bb9b261c4f754f13166773b.ctex"]
 
 [params]
 

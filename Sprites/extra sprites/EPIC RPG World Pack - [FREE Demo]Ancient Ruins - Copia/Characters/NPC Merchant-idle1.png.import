@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6opl0q7ossef"
-path="res://.godot/imported/NPC Merchant-icons-generic icon disappearing animation.png-cae1b8f1df32f2f33d2e3cc32edca5d7.ctex"
+uid="uid://k1e7hwufy1t2"
+path="res://.godot/imported/NPC Merchant-idle1.png-3bdc280f0bf6292ca2a17f690c53adfe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Characters/NPC Merchant-icons-generic icon disappearing animation.png"
-dest_files=["res://.godot/imported/NPC Merchant-icons-generic icon disappearing animation.png-cae1b8f1df32f2f33d2e3cc32edca5d7.ctex"]
+source_file="res://Sprites/extra sprites/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Characters/NPC Merchant-idle1.png"
+dest_files=["res://.godot/imported/NPC Merchant-idle1.png-3bdc280f0bf6292ca2a17f690c53adfe.ctex"]
 
 [params]
 
