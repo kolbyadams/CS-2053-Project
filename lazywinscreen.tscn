@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://6a5gjbb877yd"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_umjyh"]
+font_size = 200
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(100, 100)
+offset_left = -192.0
+offset_top = -168.0
+offset_right = 1472.0
+offset_bottom = 856.0
+color = Color(0, 0, 0, 1)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(640, 360)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 240.0
+offset_top = 208.0
+offset_right = 1086.0
+offset_bottom = 481.0
+text = "You Win!"
+label_settings = SubResource("LabelSettings_umjyh")

@@ -11,7 +11,9 @@ func _process(_delta):
 	prevPosx = $mainplayer.position.x
 	$lvl2cam/healthlabel2.text = "health: %s" % $mainplayer.life
 	$maincam/healthlabel1.text = "health: %s" % $mainplayer.life
-
+	$lvl3cam/healthLabel3.text = "health: %s" % $mainplayer.life
+	if $mainplayer.diamonds_collected >= 3:
+		$portal2.visible = true
 #exit portal
 func _on_portal_body_shape_entered(_body_rid: RID, body: Node2D, _body_shape_index: int, _local_shape_index: int) -> void:
 	if get_tree().get_nodes_in_group("player").has(body):
@@ -40,7 +42,11 @@ func _on_diamond_2_body_entered(body: Node2D) -> void:
 		$maincam.make_current()
 		$lvl1.visible = true
 		$lvl2.visible = false
+		$lvl3.visible = false
 		$lvl1.position = Vector2.ZERO
+		$lvl1/wall.position = Vector2(5224, -1000)
+		$lvl2/wall2.position = Vector2(5224, -1000)
+		$lvl3/wall3.position = Vector2(5224, -1000)
 
 func _on_cp_1_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
 	if get_tree().get_nodes_in_group("player").has(body):
@@ -84,3 +90,18 @@ func _on_timeleap_5_body_shape_entered(body_rid: RID, body: Node2D, body_shape_i
 	$lvl1/timeleap5.queue_free()
 	$lvl1.visible = false
 	$lvl3.visible = true
+
+
+func _on_camtransition_2_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
+	if get_tree().get_nodes_in_group("player").has(body):
+		$maincam.visible = false
+		$lvl3cam.make_current()
+		$lvl3.position = Vector2.ZERO
+		$lvl1.position = Vector2(10000,10000)
+		$lvl1.position = Vector2(10000,10000)
+		$lvl1.visible = false
+		$lvl2.visible = false
+		$lvl3.visible = true
+		$lvl1/wall.position = Vector2(5264.0, 0)
+		$lvl2/wall2.position = Vector2(5264.0, 0)
+		$lvl3/wall3.position = Vector2(5264.0, 0)
