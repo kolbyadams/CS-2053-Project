@@ -1,10 +1,11 @@
-[gd_scene load_steps=11 format=4 uid="uid://bx2c3iyjpo4ql"]
+[gd_scene load_steps=12 format=4 uid="uid://bx2c3iyjpo4ql"]
 
 [ext_resource type="Script" uid="uid://dnvf01yd83qpv" path="res://Snow_Level/scenes/snow_level.gd" id="1_3fho8"]
 [ext_resource type="Texture2D" uid="uid://dby04f2vym5rk" path="res://Snow_Level/assets/background.jpg" id="1_wku01"]
 [ext_resource type="Texture2D" uid="uid://cwuwwigqoi1ah" path="res://Snow_Level/assets/SnowTiles.png" id="2_rkw6l"]
 [ext_resource type="Texture2D" uid="uid://j2jcgwj6dwgf" path="res://Snow_Level/assets/cave.jpg" id="3_3fho8"]
 [ext_resource type="PackedScene" uid="uid://chbw8qoar5fuj" path="res://player.tscn" id="4_rkw6l"]
+[ext_resource type="PackedScene" uid="uid://cyapvn0b75wdb" path="res://transition2.tscn" id="6_orpbo"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3fho8"]
 texture = ExtResource("2_rkw6l")
@@ -553,6 +554,8 @@ shape = SubResource("RectangleShape2D_orpbo")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ToScreen3"]
 position = Vector2(1296.5, 1201)
 shape = SubResource("RectangleShape2D_to3fd")
+
+[node name="Node2D" parent="." instance=ExtResource("6_orpbo")]
 
 [connection signal="body_entered" from="ToScreen2" to="." method="_on_to_screen_2_body_entered"]
 [connection signal="body_entered" from="ToScreen3" to="." method="_on_to_screen_3_body_entered"]
